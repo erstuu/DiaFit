@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_chose_language"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/lay_card_height_290"
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView6"
+                android:layout_width="@dimen/lay_card_width_60"
+                android:layout_height="@dimen/lay_card_height_4"
+                android:layout_marginTop="@dimen/lay_martop_16"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="@dimen/corner_radius_100"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_chose_language"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/lay_marstar_16"
+                android:layout_marginEnd="@dimen/lay_marstar_16"
+                android:layout_marginTop="@dimen/lay_martop_8"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/chose_language"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ts_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView6" />
+
+            <TextView
+                android:id="@+id/tv_what_language_do_you_prefer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/lay_marstar_16"
+                android:layout_marginEnd="@dimen/lay_marstar_16"
+                android:fontFamily="@font/poppins"
+                android:text="@string/what_language_do_you_prefer"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ts_16"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_chose_language" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_language"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/lay_marhor_16"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/tv_what_language_do_you_prefer"
+                app:layout_constraintTop_toBottomOf="@+id/tv_what_language_do_you_prefer">
+
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/rb_inggris"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/lay_martop_8"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="@string/english"
+                    android:textSize="@dimen/ts_24" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="@dimen/lay_marstar_16"
+                    android:background="@color/slightly_grey" />
+
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/rb_indonesia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/lay_martop_8"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="@string/indonesia"
+                    android:textSize="@dimen/ts_24" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="@dimen/lay_marstar_16"
+                    android:background="@color/slightly_grey" />
+            </RadioGroup>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_continue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/lay_marhor_16"
+                android:layout_marginTop="@dimen/lay_martop_8"
+                android:layout_marginBottom="@dimen/lay_marbot_16"
+                android:background="@drawable/button_background"
+                android:elevation="1dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/continu"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_button_18"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

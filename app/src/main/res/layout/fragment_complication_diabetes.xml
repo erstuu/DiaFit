@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/diaPrimary"
+                app:title="@string/komplikasi_diabetes"
+                app:titleTextAppearance="@style/ToolbarTitleText" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/diabetes_melitus_adalah_kondisi_kronis_nyang_dapat_menyebabkan_berbagai_nkomplikasi_serius_jika_tidak_dikelola_ndengan_baik_komplikasi_ini_umumnya_ndibagi_menjadi_dua_kategori_utama_nmikrovaskular_dan_makrovaskular"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/komplikasi_mikrovaskular"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/retinopati_diabetik"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="16dp"
+            android:text="@string/kerusakan_pada_pembuluh_darah_kecil_ndi_retina_mata_yang_dapat_menyebabkan_ngangguan_penglihatan_hingga_kebutaan"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/nefropati_diabetik"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="16dp"
+            android:text="@string/kerusakan_pada_ginjal_akibat_kadar_ngula_darah_yang_tinggi_berpotensi_nberkembang_menjadi_gagal_ginjal_kronis"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/neuropati_diabetik"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="16dp"
+            android:text="@string/kerusakan_saraf_yang_menyebabkan_ngejala_seperti_kesemutan_nyeri_atau_nmati_rasa_terutama_pada_ekstremitas"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/komplikasi_makrovaskular"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/penyakit_jantung_koroner"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="16dp"
+            android:text="@string/peningkatan_risiko_serangan_jantung_nakibat_penyempitan_pembuluh_ndarah_koroner"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/stroke"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="16dp"
+            android:text="@string/risiko_lebih_tinggi_untuk_mengalami_nstroke_akibat_gangguan_aliran_ndarah_ke_otak"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/penyakit_arteri_perifer"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="16dp"
+            android:text="@string/penyempitan_pembuluh_darah_di_nekstremitas_yang_dapat_nmenyebabkan_nyeri_dan_ngangguan_sirkulasi"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="16dp" />
+    </LinearLayout>
+
+</ScrollView>

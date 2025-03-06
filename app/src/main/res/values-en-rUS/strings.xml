@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DiaFit</string>
+    <string name="detail_news">Detail News</string>
+    <string name="give_feedback">Give feedback</string>
+    <string name="change_language">Change language</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="input_data">Input Data</string>
+    <string name="result">Result</string>
+    <string name="app_logo">App logo</string>
+    <string name="hi_gluco_friend">Hi! %s</string>
+    <string name="we_have_something_for_you">We have solution for you!</string>
+    <string name="profile_page">My Profile</string>
+    <string name="home">Home page</string>
+    <string name="set_your_preferences_here">Set your preferences here!</string>
+    <string name="ai_powered_glucose_guide">AI Powered Glucose Guide</string>
+    <string name="monitor_your_glucose">Monitor your glucose levels and risk easily with our AI Powered tool!</string>
+    <string name="check_now">Check Now!</string>
+    <string name="online_glucose_checking">Online Checking Glucose</string>
+    <string name="let_our_ai_powered">Let our AI Powered Tool to analyze your data for instant glucose insights.</string>
+    <string name="manual_entry_results">Manual Entry and Results</string>
+    <string name="enter_your_data">Enter your data to get personalized feedback.</string>
+    <string name="article">Article</string>
+    <string name="suggestion">Suggestion to read</string>
+    <string name="image_article_suggestion">Image article suggestion</string>
+    <string name="comparing_camel">Comparing camel, cow and goat milk: Which is best for diabetes and heart health?</string>
+    <string name="comparing_cow">Comparing camel, cow and goat milk: Which is best for diabetes and heart health?</string>
+    <string name="in_a_recent">In a recent review published in the Nutrients lorem ipsum color sit dot amet</string>
+    <string name="gender">Gender</string>
+    <string name="select_your_gender">Select your gender</string>
+    <string name="age">Age</string>
+    <string name="enter_your_age">Enter your age</string>
+    <string name="smoking_history">Smoking History</string>
+    <string name="do_you_smoke">Do you smoke?</string>
+    <string name="heart_disease">Heart Disease</string>
+    <string name="any_history_of_heart_disease">Any history of heart disease?</string>
+    <string name="hypertension">Hypertension</string>
+    <string name="do_you_have_high_blood_pressure">Do you have high blood pressure?</string>
+    <string name="body_mass_index">Body Mass Index</string>
+    <string name="enter_your_bmi">Enter your BMI (e.g., 22)</string>
+    <string name="hemoglobin_a1c_level">Hemoglobin A1C Level</string>
+    <string name="enter_your_hba1c">Enter your HbA1c (e.g., 5.7)</string>
+    <string name="blood_glucose_evel">Blood Glucose Level</string>
+    <string name="enter_your_glucose_level">Enter your current glucose level</string>
+    <string name="double_check_your_information">Double-check your information!</string>
+    <string name="just_one_more_step">Just one more step!</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="success_submit">Success Submit</string>
+    <string name="error_empty_field">All fields must be filled</string>
+    <string name="make_sure_everything_is_correct_before_proceeding.">Make sure everything is correct before proceeding.</string>
+    <string name="all_set_up">All set up!</string>
+    <string name="you_are_ready_to_go">You\'re ready to go!</string>
+    <string name="heres_your_result">Here\'s Your Result</string>
+    <string name="diabete_result">Diabetic</string>
+    <string name="result_data">Result data user</string>
+    <string name="play_store">Check out this app: https://play.google.com/store/apps/details?id=</string>
+    <string name="share">Share this app to your friend</string>
+    <string name="text_plain">text/plain</string>
+    <string name="test">Test</string>
+    <string name="invalid_view_type">Invalid view type</string>
+    <string name="dicover_the_power_of_ai">Discover the power of AI to check your diabetes risk!</string>
+    <string name="stay_informed_with_the_latest_diabetes_news">Stay informed with the latest diabetes news</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="email">Email</string>
+    <string name="make_sure_email_valid">Make sure your email is valid</string>
+    <string name="username">Username</string>
+    <string name="Input_unique_name">Input unique name</string>
+    <string name="have_an_account_login">Have an account?</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="password">Password</string>
+    <string name="Input_password">Password must be more than 8 characters</string>
+    <string name="login">Log in</string>
+    <string name="input_your_email">Input your email</string>
+    <string name="input_your_password">Input your password</string>
+    <string name="title_home">Home</string>
+    <string name="title_person">Profile</string>
+    <string name="title_history">History</string>
+    <string name="guide_your_glucose">Guide Your Glucose</string>
+    <string name="app_version_1_0">App Version 1.0</string>
+    <string name="application_logo">Application logo</string>
+    <string name="onboarding_image">Onboarding image</string>
+    <string name="sign_up_image">Sign up image</string>
+    <string name="login_image">Login image</string>
+    <string name="date_example">Friday, 29 November 2024</string>
+    <string name="level_hemoglobin_a1c">Hemoglobin A1c Level</string>
+    <string name="result_level_hemoglobin">5.7</string>
+    <string name="glucose_level">Glucose Level</string>
+    <string name="result_glucose_level">5.7</string>
+    <string name="diabetes_result">Test result</string>
+    <string name="results_diabetes_result">High Risk</string>
+    <string name="try_again">Try again</string>
+    <string name="you_seem_to_be_offline">You seem to be offline</string>
+    <string name="it_seem_you_have_not_history_yet">You haven\'t history yet</string>
+    <string name="check_your_internet_connection_and_try_again">Check your internet connection and try again</string>
+    <string name="check_your_history_here">Check your diabetes, here!</string>
+    <string name="image_no_internet">Image no internet</string>
+    <string name="sure_want_to_logout">Want to logout? After that you should login again</string>
+    <string name="logout">Logout</string>
+    <string name="network_connection_error">There\'s no internet</string>
+    <string name="network_connection_restored">You are connected now</string>
+    <string name="an_unexpected_error_occurred">An unexpected error occurred</string>
+    <string name="http_error_default_message">An error occurred while processing your request.</string>
+    <string name="what_language_do_you_prefer">What language do you prefer?</string>
+    <string name="edit_information">Edit your information here</string>
+    <string name="your_feedback_is_important_to_us">Your feedback is important to us</string>
+    <string name="all_fields_must_not_be_empty">All fields must not be empty</string>
+    <string name="nama_tidak_boleh_kosong">Name cannot be empty</string>
+    <string name="invalid_email_address">Invalid email address</string>
+    <string name="sign_up_success">Sign up success</string>
+    <string name="login_success">Login success</string>
+    <string name="profile">Change Profile</string>
+    <string name="save">Save</string>
+    <string name="profile_updated">Profile updated</string>
+    <string name="keluhan">Complaints</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="after_you_logout_you_will_need_to_login_again">After you logout, you will need to login again</string>
+    <string name="cancel">Cancel</string>
+    <string name="we_are_here_to_help_you_nmonitor_your_health_with_ease_nand_precision">We are here to help you monitor your health with ease and precision</string>
+    <string name="welocome_to_ai_powered">Welcome to AI-Powered</string>
+    <string name="diabetes_detection_app">Diabetes Detection App</string>
+    <string name="Retry">Retry</string>
+    <string name="ok">OK</string>
+    <string name="connection_timeout">Connection Timeout. Please try again.</string>
+    <string name="you_have_successfully_registered">You\'ve successfully registered!</string>
+    <string name="you_have_successfully_login">You\'ve successfully login!</string>
+    <string name="congratulation">Congratulation!</string>
+    <string name="english">English</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="chose_language">Choose language</string>
+    <string name="continu">Continue</string>
+    <string name="image_person_talking">Image person talking</string>
+    <string name="edit_logo">Edit logo</string>
+    <string name="logo_share">Logo share</string>
+    <string name="arrow_logo">Arrow logo</string>
+    <string name="news_image">News image</string>
+    <string name="share_to_your_friend">Share to your friend</string>
+    <string name="feel_free_to_share_this_app_to_your_friend">Feel free to share this app to your friend</string>
+    <string name="log_out">Log out</string>
+    <string name="logo_change_language">Logo change language</string>
+    <string name="logo_log_out">Logo log out</string>
+    <string name="service_unavailable">Service Unavailable</string>
+    <string name="diafit">DiaFit</string>
+    <string name="cek_diabetes_kamu">Check your diabetes!</string>
+    <string name="cek_diabetes">Check Diabetes</string>
+    <string name="hemoglobin">Hemoglobin</string>
+    <string name="_0_0">0.0</string>
+    <string name="g_dl">g/dL</string>
+    <string name="diabetes_risk">Diabetes Risk</string>
+    <string name="sedang">Moderate</string>
+    <string name="resiko">Risk</string>
+    <string name="mg_dl">mg/dL</string>
+    <string name="_0">0</string>
+    <string name="gula_darah">Blood Sugar</string>
+    <string name="guest">DiaFit Friend</string>
+    <string name="halo">Hello,</string>
+    <string name="rekomendasi">Recommendations</string>
+    <string name="paham_ntipe_tipe_ndiabetes">Understanding Types of Diabetes</string>
+    <string name="tipe_tipe_diabetes">Types of diabetes</string>
+    <string name="tips_makanan_nuntuk_diabetes">Food tips for diabetes</string>
+    <string name="olahraga_nyang_ndisarankan">Recommended exercises</string>
+    <string name="komplikasi_ndiabetes">Diabetes complications</string>
+    <string name="artikel">Article</string>
+    <string name="atur_preferensi_kamu_di_sini">Set your preferences here!</string>
+    <string name="normal">Normal</string>
+    <string name="image_onboarding">Image onboarding</string>
+    <string name="mulai">Start</string>
+    <string name="lanjutkan">Continue</string>
+    <string name="selamat_datang">Welcome</string>
+    <string name="sobat_diafit">DiaFit Friend</string>
+    <string name="cek_resiko_diabetes_dan_dapatkan_npenanganan_dan_pencegahan_terkait_ndiabetes_kamu">Check your diabetes risk, and get\ntreatment and prevention related\nto your diabetes!</string>
+    <string name="cek_resiko_diabetes">Check diabetes risk</string>
+    <string name="tanpa_ribet">without hassle!</string>
+    <string name="isi_pertanyaan_dan_dapatkan_hasilnya_ndalam_hitungan_detik">Fill in the questions and get\nresults in seconds!</string>
+    <string name="jaga_pola_hidup">Maintain Lifestyle</string>
+    <string name="lebih_sehat">Healthier</string>
+    <string name="dapatkan_rekomendasi_pola_hidup_nsehat_untuk_menjaga_nkeseimbangan_tubuhmu">Get healthy lifestyle recommendations\nto maintain your body\nbalance.</string>
+    <string name="riwayat_tercatat">Records tracked</string>
+    <string name="dengan_otomatis">automatically</string>
+    <string name="kamu_dapat_melihat_perkembangan_ndiabetes_kamu_dari_waktu_ke_waktu_ndiabetes_kamu">You can see the progression\nof your diabetes over time!</string>
+    <string name="lewati">Skip</string>
+    <string name="logo_tipe_1_diabetes">Type 1 diabetes logo</string>
+    <string name="logo_tipe_2_diabetes">Type 2 diabetes logo</string>
+    <string name="logo_tipe_diabetes_gestasional">Gestational diabetes logo</string>
+    <string name="tipe_1_diabetes">Type 1 diabetes</string>
+    <string name="tipe_2_diabetes">Type 2 diabetes</string>
+    <string name="diabetes_gestasional">Gestational diabetes</string>
+    <string name="detail_tipe_1">Type 1 Details</string>
+    <string name="mengenal_tipe_1_diabetes">Understanding Type 1 Diabetes</string>
+    <string name="tipe_1_diabetes_adalah_penyakit_autoimun_ndi_mana_sistem_kekebalan_tubuh_secara_keliru_nmenyerang_dan_menghancurkan_sel_beta_ndi_pankreas_yang_bertanggung_jawab_nuntuk_memproduksi_insulin_insulin_adalah_hormon_nyang_berfungsi_mengatur_kadar_gula_n_glukosa_dalam_darah_agar_tetap_stabil_nkarena_tubuh_tidak_bisa_memproduksi_ninsulin_sendiri_penderita_diabetes_tipe_1_nmemerlukan_suntikan_insulin_seumur_hidup">
+    Type 1 diabetes is an autoimmune disease\nwhere the immune system mistakenly\nattacks and destroys beta cells\nin the pancreas, which are responsible\nfor producing insulin. Insulin is a hormone\nthat regulates blood sugar\n(glucose) levels to keep them stable.\nSince the body cannot produce\ninsulin on its own, individuals with type 1 diabetes\nrequire lifelong insulin injections.
+    </string>
+    <string name="penyebab">Causes</string>
+    <string name="_1_faktor_genetik">1. Genetic Factors</string>
+    <string name="beberapa_orang_memiliki_kecenderungan_ngenetik_yang_membuat_mereka_lebih_rentan_nterhadap_diabetes_tipe_1">
+    Some people have a genetic predisposition\nthat makes them more susceptible\nto type 1 diabetes.
+    </string>
+    <string name="_2_gangguan_autoimun">2. Autoimmune Disorder</string>
+    <string name="sistem_kekebalan_tubuh_menyerang_sel_beta_npankreas_yang_memproduksi_insulin">
+    The immune system attacks beta cells\nin the pancreas that produce insulin.
+    </string>
+    <string name="_3_infeksi_virus_atau_faktor_lingkungan">3. Viral Infection or Environmental Factors</string>
+    <string name="beberapa_virus_tertentu_dapat_memicu_nrespons_autoimun_yang_menyebabkan_sistem_nkekebalan_tubuh_menyerang_sel_beta_pankreas_nfaktor_lingkungan_lain_seperti_pola_makan_ndan_paparan_zat_beracun_juga_dapat_nberkontribusi_pada_perkembangan_ndiabetes_tipe_1">
+    Certain viruses can trigger\nan autoimmune response that causes the\nimmunesystem to attack beta cells in the\npancreas. Other environmental factors,\nsuch as diet and exposure to toxins, can also\ncontribute to the development\nof type 1 diabetes.
+    </string>
+    <string name="gejala">Symptoms</string>
+    <string name="gejala_diabetes_tipe_1_meliputi">Type 1 diabetes symptoms include:</string>
+    <string name="mengenal_tipe_2_diabetes">Understanding Type 2 Diabetes</string>
+    <string name="detail_tipe_2">Type 2 Details</string>
+    <string name="diabetes_tipe_2_terjadi_ketika_tubuh_tidak_nmerespons_insulin_dengan_baik_resistensi_ninsulin_atau_pankreas_tidak_cukup_nmemproduksi_insulin_untuk_mengontrol_nkadar_gula_darah">
+    Type 2 diabetes occurs when the body\ndoes not respond properly to insulin\n(insulin resistance) or the pancreas does\nnot produce enough insulin to regulate\nblood sugar levels.
+    </string>
+    <string name="_1_gaya_hidup_tidak_sehat">1. Unhealthy Lifestyle</string>
+    <string name="konsumsi_makanan_tinggi_gula_dan_nlemak_jenuh">Consumption of high-sugar and\nsaturated fat foods.</string>
+    <string name="_2_kurang_aktivitas_fisik">2. Lack of Physical Activity</string>
+    <string name="kurangnya_olahraga_menyebabkan_ntubuh_kurang_efisien_dalam_nmenggunakan_insulin">
+    Lack of exercise causes the body\nto be less efficient in\nusing insulin.
+    </string>
+    <string name="_3_obesitas_atau_kelebihan_berat_badan">3. Obesity or Overweight</string>
+    <string name="lemak_berlebih_terutama_di_sekitar_perut_nmeningkatkan_resistensi_insulin">
+    Excess fat, especially around the abdomen,\nincreases insulin resistance.
+    </string>
+    <string name="_1_riwayat_keluarga_dengan_diabetes">1. Family History of Diabetes</string>
+    <string name="_2_obesitas_atau_kelebihan_berat_n_badan_sebelum_hamil">2. Obesity or Overweight\n Before Pregnancy</string>
+    <string name="_3_usia_di_atas_25_tahun">3. Age Over 25 Years</string>
+    <string name="_4_pernah_mengalami_diabetes_n_gestasional_sebelumnya">4. Previously Experienced\n Gestational Diabetes</string>
+    <string name="_5_sindrom_ovarium_polikistik_pcos">5. Polycystic Ovary Syndrome (PCOS)</string>
+    <string name="_6_pernah_melahirkan_bayi_dengan_n_berat_lebih_dari_4_kg">6. Previously Gave Birth to a Baby\n Weighing More Than 4 kg</string>
+    <string name="_4_genetik_atau_riwayat_keluarga">4. Genetics or Family History</string>
+    <string name="jika_orang_tua_atau_saudara_kandung_nmemiliki_diabetes_tipe_2_risikonya_meningkat">
+    If a parent or sibling has type 2 diabetes,\nthe risk increases.
+    </string>
+    <string name="_5_usia_di_atas_45_tahun">5. Age Over 45</string>
+    <string name="risiko_meningkat_seiring_bertambahnya_usia">The risk increases with age.</string>
+    <string name="_6_riwayat_gestational_diabetes">6. History of Gestational Diabetes</string>
+    <string name="wanita_yang_pernah_mengalami_diabetes_nsaat_hamil_lebih_berisiko_terkena_tipe_2">
+    Women who have had diabetes during\npregnancyare at a higher risk of\ndeveloping type 2.
+    </string>
+    <string name="gejala_diabetes_tipe_2_meliputi">Type 2 diabetes symptoms include:</string>
+    <string name="detail_tipe_gestasional">Gestational Type Details</string>
+    <string name="mengenal_tipe_diabetes_ngestasional">Understanding Gestational\nDiabetes</string>
+    <string name="diabetes_gestasional_adalah_jenis_diabetes_nyang_terjadi_selama_kehamilan_biasanya_npada_trimester_kedua_atau_ketiga_kondisi_nini_terjadi_ketika_tubuh_ibu_hamil_tidak_ndapat_memproduksi_insulin_yang_cukup_nuntuk_mengimbangi_perubahan_hormon_nyang_meningkatkan_kadar_gula_darah">
+    Gestational diabetes is a type of diabetes\nthat occurs during pregnancy, usually\nin the second or third trimester. This condition\nhappens when the body of a pregnant woman\ncannot produce enough insulin\nto compensate for hormonal changes\nthat increase blood sugar levels.
+    </string>
+    <string name="gejala_diabetes_tipe_gestasional_meliputi">Gestational diabetes symptoms include:</string>
+    <string name="tips_makanan">Food Tips</string>
+    <string name="tips_menu_makanan">Meal Plan Tips</string>
+    <string name="contoh_menu_sehari_nuntuk_pengidap_diabetes">Daily Meal Examples\nfor Diabetes Patients</string>
+    <string name="sarapan">Breakfast</string>
+    <string name="_1_oatmeal_dengan_potongan_apel_n_dan_kacang_almond_n2_telur_rebus_roti_gandum">
+    1. Oatmeal with apple slices\n and almonds\n2. Boiled eggs + whole wheat bread
+    </string>
+    <string name="snack_pagi">Morning Snack</string>
+    <string name="_1_edamame_rebus_atau_n_segenggam_kacang_almond">
+    1. Boiled edamame or\n a handful of almonds
+    </string>
+    <string name="makan_siang">Lunch</string>
+    <string name="_1_nasi_merah_dada_ayam_n_panggang_tumis_brokoli_n2_tahu_tempe_rebus">
+    1. Brown rice + grilled chicken breast\n + sautéed broccoli\n2. Boiled tofu/tempeh
+    </string>
+    <string name="snack_sore">Afternoon Snack</string>
+    <string name="_1_yogurt_tanpa_gula_dengan_n_buah_stroberi">
+    1. Sugar-free yogurt with\n strawberries
+    </string>
+    <string name="makan_malam">Dinner</string>
+    <string name="_1_sup_sayur_dengan_tahu_n_ikan_panggang_n2_smoothie_alpukat_tanpa_gula">
+    1. Vegetable soup with tofu +\n grilled fish\n2. Sugar-free avocado smoothie
+    </string>
+    <string name="tips_makanan_untuk_npengidap_diabetes">Food Tips for\nPeople with Diabetes</string>
+    <string name="pengidap_diabetes_perlu_mengontrol_kadar_ngula_darah_dengan_pola_makan_sehat_berikut_nadalah_tips_memilih_makanan_yang_baik_nuntuk_diabetes_serta_makanan_yang_nsebaiknya_dihindari">People with diabetes need to control their\nblood sugar levels with a healthy diet. Below\nare tips for choosing good foods\nfor diabetes and foods that\nshould be avoided.</string>
+    <string name="pilih_karbohidrat_yang_baik">Choose Healthy Carbohydrates</string>
+    <string name="pilihan_yang_sehat">Healthy Choices</string>
+    <string name="_1_nasi_merah_quinoa_oatmeal_n2_roti_gandum_utuh_pasta_gandum_n3_kacang_kacangan_lentil_n4_sayuran_bertepung_ubi_labu">1. Brown rice, quinoa, oatmeal\n2. Whole wheat bread, whole wheat pasta\n3. Beans, lentils\n4. Starchy vegetables (sweet potatoes, pumpkin)</string>
+    <string name="hindari">Avoid</string>
+    <string name="_1_nasi_putih_mie_instan_n2_roti_putih_tepung_terigu_olahan_n3_kentang_goreng_makanan_cepat_saji">1. White rice, instant noodles\n2. White bread, refined wheat flour\n3. French fries, fast food</string>
+    <string name="konsumsi_protein_sehat">Consume Healthy Proteins</string>
+    <string name="_1_ikan_salmon_tuna_sarden_n2_dada_ayam_tanpa_kulit_n3_tahu_tempe_edamame_n4_telur_rebus_n5_kacang_almond_kenari_chia_seeds">1. Salmon, tuna, sardines\n2. Skinless chicken breast\n3. Tofu, tempeh, edamame\n4. Boiled eggs\n5. Almonds, walnuts, chia seeds</string>
+    <string name="_1_daging_olahan_sosis_nugget_n_bakso_instan_n2_daging_berlemak_tinggi_kulit_ayam_n_daging_berlemak">1. Processed meats (sausages, nuggets,\n instant meatballs)\n2. High-fat meats (chicken skin,\n fatty meat)</string>
+    <string name="perbanyak_serat_dari_buah_dan_sayur">Increase Fiber from Fruits and Vegetables</string>
+    <string name="_1_brokoli_bayam_wortel_tomat_n2_apel_pir_alpukat_stroberi_n3_kacang_kacangan_dan_biji_bijian">1. Broccoli, spinach, carrots, tomatoes\n2. Apples, pears, avocados, strawberries\n3. Beans and seeds</string>
+    <string name="_1_buah_tinggi_gula_seperti_anggur_n_durian_nangka_mangga_n_terlalu_matang_n2_jus_buah_dengan_tambahan_gula">1. High-sugar fruits such as grapes,\n durian, jackfruit, overripe mango\n2. Fruit juices with added sugar</string>
+    <string name="hindari_gula_berlebihan_dan_ganti_ndengan_pemanis_sehat">Avoid Excess Sugar and Replace\nwith Healthy Sweeteners</string>
+    <string name="_1_stevia_erythritol_monk_fruit_n2_madu_dalam_jumlah_terbatas_n3_kurma_sebagai_pemanis_alami">1. Stevia, erythritol, monk fruit\n2. Honey in limited amounts\n3. Dates as a natural sweetener</string>
+    <string name="_1_gula_pasir_sirup_kental_manis_n2_minuman_bersoda_teh_manis_n_kopi_susu_instan_n3_coklat_dan_permen_manis">1. Granulated sugar, syrup\n     sweetened condensed milk\n2. Soft drinks, sweetened tea,\n instant coffee with milk\n3. Chocolate and sugary candies</string>
+    <string name="batasi_makanan_tinggi_lemak_jahat">Limit Foods High in Unhealthy Fats</string>
+    <string name="_1_minyak_zaitun_minyak_kelapa_murni_n2_alpukat_kacang_kacangan_biji_chia_n3_ikan_berlemak_tinggi_omega_3">1. Olive oil, virgin coconut oil\n2. Avocados, nuts, chia seeds\n3. Fatty fish high in omega-3</string>
+    <string name="_1_gorengan_margarin_fast_food_n2_keripik_snack_kemasan_tinggi_garam_n3_makanan_cepat_saji">1. Fried foods, margarine, fast food\n2. Chips, packaged snacks high in salt\n3. Fast food</string>
+    <string name="minum_air_putih_dan_hindari_nminuman_manis">Drink Water and Avoid\nSugary Beverages</string>
+    <string name="_1_air_putih_minimal_8_gelas_hari_n2_infused_water_lemon_mentimun_n_daun_mint_n3_teh_hijau_tanpa_gula">1. At least 8 glasses of water per day\n2. Infused water (lemon, cucumber,\n mint leaves)\n3. Unsweetened green tea</string>
+    <string name="_1_minuman_bersoda_teh_kemasan_n2_kopi_dengan_krimer_gula_berlebihan_n3_minuman_boba">1. Soft drinks, packaged tea\n2. Coffee with excessive creamer/sugar\n3. Boba drinks</string>
+    <string name="komplikasi_diabetes">Diabetes Complications</string>
+    <string name="diabetes_melitus_adalah_kondisi_kronis_nyang_dapat_menyebabkan_berbagai_nkomplikasi_serius_jika_tidak_dikelola_ndengan_baik_komplikasi_ini_umumnya_ndibagi_menjadi_dua_kategori_utama_nmikrovaskular_dan_makrovaskular">Diabetes mellitus is a chronic condition\nthat can lead to serious complications\nif not managed properly. These complications\nare generally categorized into two types:\nmicrovascular and macrovascular.</string>
+    <string name="komplikasi_mikrovaskular">Microvascular Complications</string>
+    <string name="retinopati_diabetik">Diabetic Retinopathy</string>
+    <string name="kerusakan_pada_pembuluh_darah_kecil_ndi_retina_mata_yang_dapat_menyebabkan_ngangguan_penglihatan_hingga_kebutaan">Damage to small blood vessels\nin the retina, which can cause\nvision problems and even blindness.</string>
+    <string name="nefropati_diabetik">Diabetic Nephropathy</string>
+    <string name="kerusakan_pada_ginjal_akibat_kadar_ngula_darah_yang_tinggi_berpotensi_nberkembang_menjadi_gagal_ginjal_kronis">Kidney damage due to high\nblood sugar levels, which may lead\nto chronic kidney failure.</string>
+    <string name="neuropati_diabetik">Diabetic Neuropathy</string>
+    <string name="kerusakan_saraf_yang_menyebabkan_ngejala_seperti_kesemutan_nyeri_atau_nmati_rasa_terutama_pada_ekstremitas">Nerve damage causing symptoms\nsuch as tingling, pain, or numbness,\nmostly in the extremities.</string>
+    <string name="komplikasi_makrovaskular">Macrovascular Complications</string>
+    <string name="penyakit_jantung_koroner">Coronary Heart Disease</string>
+    <string name="peningkatan_risiko_serangan_jantung_nakibat_penyempitan_pembuluh_ndarah_koroner">Increased risk of heart attacks\ndue to narrowing of coronary arteries.</string>
+    <string name="stroke">Stroke</string>
+    <string name="risiko_lebih_tinggi_untuk_mengalami_nstroke_akibat_gangguan_aliran_ndarah_ke_otak">Higher risk of stroke due to\nimpaired blood flow to the brain.</string>
+    <string name="penyakit_arteri_perifer">Peripheral Artery Disease</string>
+    <string name="penyempitan_pembuluh_darah_di_nekstremitas_yang_dapat_nmenyebabkan_nyeri_dan_ngangguan_sirkulasi">Narrowing of blood vessels\nin the extremities, causing\npain and circulation problems.</string>
+    <string name="saran_olahraga">Exercise Recommendations</string>
+    <string name="olahraga_memiliki_peran_penting_ndalam_pengelolaan_diabetes_nmembantu_mengendalikan_kadar_ngula_darah_dan_meningkatkan_nkesehatan_secara_keseluruhan_nberikut_beberapa_rekomendasi_nolahraga_yang_aman_dan_efektif_bagi_npenderita_diabetes">
+    Exercise plays an important role\nin diabetes management,\nhelping to control blood sugar levels\nand improve overall health.\nHere are some safe and effective\nexercise recommendations for people with diabetes:
+    </string>
+    <string name="aktivitas_fisik_sederhana_seperti_berjalan_nkaki_dapat_membantu_menurunkan_nkadar_gula_darah_dan_meningkatkan_nsensitivitas_insulin_sebuah_tinjauan_npenelitian_pada_tahun_2021_menunjukkan_nbahwa_berjalan_kaki_dapat_membantu_npenderita_diabetes_tipe_2_menurunkan_ntekanan_darah_kadar_hba1c_dan_nindeks_massa_tubuh_bmi">
+    Simple physical activities like walking\ncan help lower blood sugar levels\nand improve insulin sensitivity.\nA 2021 research review showed\nthat walking can help\npeople with type 2 diabetes reduce\nblood pressure, HbA1c levels,\nand body mass index (BMI).
+    </string>
+    <string name="jalan_kaki">Walking</string>
+    <string name="bersepeda">Cycling</string>
+    <string name="bersepeda_merupakan_olahraga_nberdampak_rendah_yang_cocok_bagi_npenderita_diabetes_terutama_yang_nmemiliki_masalah_persendian_naktivitas_ini_membantu_meningkatkan_nkebugaran_kardiovaskular_dan_nmengontrol_kadar_gula_darah">
+    Cycling is a low-impact exercise\nsuitable for people with diabetes,\nespecially those with joint problems.\nThis activity helps improve\ncardiovascular fitness\nand control blood sugar levels.
+    </string>
+    <string name="senam_kaki_diabetes">Diabetes Foot Exercise</string>
+    <string name="senam_khusus_ini_dirancang_untuk_nmeningkatkan_sirkulasi_darah_dan_nmencegah_komplikasi_pada_kaki_akibat_ndiabetes_penelitian_menunjukkan_nbahwa_senam_kaki_diabetes_dapat_nmembantu_menurunkan_kadar_nglukosa_darah_pada_penderita_ndiabetes_mellitus_tipe_2">
+    This specialized exercise is designed\nto improve blood circulation\nand prevent foot complications\ncaused by diabetes.\nResearch has shown that\ndiabetes foot exercise\ncan help lower blood glucose levels\nin people with type 2 diabetes mellitus.
+    </string>
+    <string name="latihan_ketahanan">Resistance Training</string>
+    <string name="latihan_ini_melibatkan_penggunaan_nbeban_untuk_meningkatkan_massa_notot_yang_dapat_membantu_nmengontrol_kadar_gula_darah_nstudi_menunjukkan_bahwa_pelatihan_nketahanan_dapat_meningkatkan_nkontrol_glikemik_pada_penderita_ndiabetes_tipe_2">
+    This training involves using weights\nto build muscle mass,\nwhich helps control blood sugar levels.\nStudies have shown that resistance\ntraining can improve glycemic control\nin people with type 2 diabetes.
+    </string>
+    <string name="anda_dapat_menerapkan_nkegiatan_di_atas_selama_15_menit_ndalam_satu_hari_atau_75_menit_ndalam_satu_minggu_dilakukan_n2_3_sesi">
+    You can perform the activities above\nfor 15 minutes per day or 75 minutes\nper week, done in 2-3 sessions.
+    </string>
+    <string name="tipe1dan2">fYIjOErJJw4</string>
+    <string name="tipegestasional">nukrZNjDSqo</string>
+    <string name="komplikasi_diabetes_id">Pr7pLXjWTH4</string>
+    <string name="tips_makanan_id">1qzs9JfsYGQ</string>
+    <string name="tips_makanan_sehari_id">H6SSaTF5djc</string>
+    <string name="olahraga_rekomendasi_id">f2BXeJovyAg</string>
+    <string name="gambar_orang_berjalan">Gambar orang berjalan</string>
+    <string name="gambar_orang_bersepeda">Gambar orang bersepeda</string>
+    <string name="gambar_latihan_kaki">Gambar latihan kaki</string>
+    <string name="gambar_orang_angkat_beban">Gambar orang angkat beban</string>
+    <string name="invalid_input_data">Invalid input data</string>
+    <string name="diabetes_tidak_terkendali">Uncontrolled Diabetes</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="diabetes_terkendali">Controlled Diabetes</string>
+    <string name="female">Female</string>
+    <string name="pra_diabetes">Pra-diabetes</string>
+    <string name="current">current</string>
+    <string name="former">former</string>
+    <string name="male">Male</string>
+    <string name="no_info">No info</string>
+    <string name="never">never</string>
+    <string name="not_current">not current</string>
+    <string name="ever">ever</string>
+    <string name="berat_badan">Weight</string>
+    <string name="masukkan_berat_badan_kamu">Enter your weight</string>
+    <string name="tinggi_badan">Height</string>
+    <string name="masukkan_tinggi_badan_kamu">Enter your height</string>
+</resources>

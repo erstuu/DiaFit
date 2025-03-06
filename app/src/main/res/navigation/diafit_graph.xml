@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gluco_guide_graph"
+    app:startDestination="@id/homeFragment2">
+
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.health.diafit.ui.fragment.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment2_to_inputDataFragment"
+            app:destination="@id/inputDataFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_newsFragment"
+            app:destination="@id/newsFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_preferenceFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_historyFragment"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_typeDiabetesFragment2"
+            app:destination="@id/typeDiabetesFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_tipsFoodFragment"
+            app:destination="@id/tipsFoodFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_workoutRecommendFragment"
+            app:destination="@id/workoutRecommendFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_complicationDiabetesFragment"
+            app:destination="@id/complicationDiabetesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/inputDataFragment"
+        android:name="com.health.diafit.ui.fragment.inputdata.InputDataFragment"
+        android:label="InputDataFragment"
+        tools:layout="@layout/fragment_input_data_dia">
+        <action
+            android:id="@+id/action_inputDataFragment_to_inputDataAdvancedFragment"
+            app:destination="@id/inputDataAdvancedFragment"/>
+        <argument
+            android:name="showBottomNav"
+            android:defaultValue="false"
+            app:argType="boolean"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/inputDataAdvancedFragment"
+        android:name="com.health.diafit.ui.fragment.inputdata.InputDataAdvancedFragment"
+        android:label="InputDataAdvancedFragment"
+        tools:layout="@layout/fragment_input_data_advanced_dia">
+        <argument
+            android:name="userData"
+            app:argType="com.health.diafit.models.UserData" />
+        <argument
+            android:name="showBottomNav"
+            android:defaultValue="false"
+            app:argType="boolean"/>
+        <action
+            android:id="@+id/action_inputDataAdvancedFragment_to_resultFragment"
+            app:destination="@id/resultFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.health.diafit.ui.fragment.ResultFragment"
+        android:label="ResultFragment"
+        tools:layout="@layout/fragment_result_dia">
+
+        <argument
+            android:name="userDataPredict"
+            app:argType="com.health.diafit.models.UserDataPredict" />
+        <action
+            android:id="@+id/action_resultFragment_to_homeFragment2"
+            app:destination="@id/homeFragment2"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/homeFragment2"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_resultFragment_to_newsFragment"
+            app:destination="@id/newsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.health.diafit.ui.fragment.news.NewsFragment"
+        android:label="NewsFragment"
+        tools:layout="@layout/fragment_news_dia">
+
+        <argument
+            android:name="news"
+            app:argType="com.health.diafit.models.WebLink" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.health.diafit.ui.fragment.profile.ProfileFragment"
+        android:label="PreferenceFragment"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.health.diafit.ui.fragment.history.HistoryFragment"
+        android:label="HistoryFragment"
+        tools:layout="@layout/fragment_history"/>
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.health.diafit.ui.fragment.editprofile.EditProfileFragment"
+        android:label="EditProfileFragment"
+        tools:layout="@layout/fragment_edit_profile">
+
+        <argument
+            android:name="username"
+            app:argType="string" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.health.diafit.ui.activity.main.MainActivity"
+        android:label="MainActivity"
+        tools:layout="@layout/fragment_home"/>
+    <fragment
+        android:id="@+id/typeDiabetesFragment"
+        android:name="com.health.diafit.ui.fragment.typediabetes.TypeDiabetesFragment"
+        android:label="fragment_type_diabetes"
+        tools:layout="@layout/fragment_type_diabetes" >
+        <action
+            android:id="@+id/action_typeDiabetesFragment_to_firstTypeDiabetesFragment"
+            app:destination="@id/firstTypeDiabetesFragment" />
+        <action
+            android:id="@+id/action_typeDiabetesFragment_to_secondTypeDiabetesFragment"
+            app:destination="@id/secondTypeDiabetesFragment" />
+        <action
+            android:id="@+id/action_typeDiabetesFragment_to_gestasionalTypeDiabetesFragment"
+            app:destination="@id/gestasionalTypeDiabetesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/firstTypeDiabetesFragment"
+        android:name="com.health.diafit.ui.fragment.typediabetes.FirstTypeDiabetesFragment"
+        android:label="fragment_first_type_diabetes"
+        tools:layout="@layout/fragment_first_type_diabetes" />
+    <fragment
+        android:id="@+id/secondTypeDiabetesFragment"
+        android:name="com.health.diafit.ui.fragment.typediabetes.SecondTypeDiabetesFragment"
+        android:label="SecondTypeDiabetesFragment"
+        tools:layout="@layout/fragment_second_type_diabetes"/>
+    <fragment
+        android:id="@+id/gestasionalTypeDiabetesFragment"
+        android:name="com.health.diafit.ui.fragment.typediabetes.GestasionalTypeDiabetesFragment"
+        android:label="fragment_gestasional_type_diabetes"
+        tools:layout="@layout/fragment_gestasional_type_diabetes" />
+    <fragment
+        android:id="@+id/tipsFoodFragment"
+        android:name="com.health.diafit.ui.fragment.typefood.TipsFoodFragment"
+        android:label="TipsFoodFragment"
+        tools:layout="@layout/fragment_tips_food">
+        <action
+            android:id="@+id/action_tipsFoodFragment_to_tipsFoodPageFragment"
+            app:destination="@id/tipsFoodPageFragment" />
+        <action
+            android:id="@+id/action_tipsFoodFragment_to_tipsFoodMenuFragment"
+            app:destination="@id/tipsFoodMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tipsFoodPageFragment"
+        android:name="com.health.diafit.ui.fragment.typefood.TipsFoodPageFragment"
+        android:label="TipsFoodPageFragment"
+        tools:layout="@layout/fragment_tips_food_page"/>
+    <fragment
+        android:id="@+id/tipsFoodMenuFragment"
+        android:name="com.health.diafit.ui.fragment.typefood.TipsFoodMenuFragment"
+        android:label="TipsFoodMenuFragment"
+        tools:layout="@layout/fragment_tips_food_menu"/>
+    <fragment
+        android:id="@+id/workoutRecommendFragment"
+        android:name="com.health.diafit.ui.fragment.workoutexercie.WorkoutRecommendFragment"
+        android:label="fragment_workout_recommend"
+        tools:layout="@layout/fragment_workout_recommend" />
+    <fragment
+        android:id="@+id/complicationDiabetesFragment"
+        android:name="com.health.diafit.ui.fragment.complication.ComplicationDiabetesFragment"
+        android:label="ComplicationDiabetesFragment"
+        tools:layout="@layout/fragment_complication_diabetes"/>
+</navigation>

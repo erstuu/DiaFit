@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gender_array">
+        <item>@string/male</item>
+        <item>@string/female</item>
+    </string-array>
+
+    <string-array name="age">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+    </string-array>
+
+    <string-array name="smoking_history">
+        <item>@string/no_info</item>
+        <item>@string/never</item>
+        <item>@string/former</item>
+        <item>@string/not_current</item>
+        <item>@string/ever</item>
+    </string-array>
+
+    <string-array name="heart_disease">
+        <item>@string/yes</item>
+        <item>@string/no</item>
+    </string-array>
+
+    <string-array name="hypertension">
+        <item>@string/yes</item>
+        <item>@string/no</item>
+    </string-array>
+
+    <string-array name="gejala_diabetes">
+        <item>Sering haus</item>
+        <item>Sering buang air kecil, terutama di malam\nhari</item>
+        <item>Sering merasa lapar, tetapi berat badan\nturun tanpa sebab</item>
+        <item>Kelelahan</item>
+        <item>Mual muntah</item>
+        <item>Mulut kering</item>
+        <item>Luka atau tubuh yang sulit sembuh</item>
+        <item>Pandangan kabur</item>
+        <item>Mudah diserang penyakit infeksi</item>
+        <item>Merasa kaku atau kesemutan pada kaki</item>
+    </string-array>
+
+    <string-array name="gejala_diabetes2">
+        <item>Sering merasa haus</item>
+        <item>Sering buang air kecil, terutamanya\ndi malam hari</item>
+        <item>Sering merasa lapar, walaupun\nsudah makan</item>
+        <item>Berat badan turun drastis tanpa\nsebab yang jelas</item>
+        <item>Mudah lelah</item>
+        <item>Luka pada kulit yang sulit mengering\natau sembuh</item>
+        <item>Penglihatan kabur</item>
+        <item>Kesemutan atau mati rasa\ndi tangan dan kaki</item>
+        <item>Masalah kulit, seperti kehitaman\npada area lipatan leher, ketiak,\ndan selangkangan</item>
+    </string-array>
+
+    <string-array name="gejala_diabetes_gestasional">
+        <item>Sering merasa haus</item>
+        <item>Sering buang air kecil</item>
+        <item>Mulut kering</item>
+        <item>Tubuh mudah lelah</item>
+        <item>Penglihatan buram</item>
+        <item>Lebih sering merasa lapar</item>
+        <item>Mual dan muntah</item>
+        <item>Penurunan berat badan meskipun\nmerasa lapar</item>
+        <item>Gatal pada area genital atau\ninfeksi jamur</item>
+    </string-array>
+</resources>
