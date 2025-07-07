@@ -9,7 +9,7 @@
         android:id="@+id/card_chose_language"
         android:layout_width="0dp"
         android:layout_height="@dimen/lay_card_height_290"
-        app:cardBackgroundColor="@color/white"
+        android:backgroundTint="?attr/colorSurface"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -39,7 +39,7 @@
                 android:layout_marginTop="@dimen/lay_martop_8"
                 android:fontFamily="@font/poppins_medium"
                 android:text="@string/chose_language"
-                android:textColor="@color/black"
+                android:textColor="?attr/colorOnSurface"
                 android:textSize="@dimen/ts_24"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cardView6" />
@@ -52,7 +52,7 @@
                 android:layout_marginEnd="@dimen/lay_marstar_16"
                 android:fontFamily="@font/poppins"
                 android:text="@string/what_language_do_you_prefer"
-                android:textColor="@color/black"
+                android:textColor="?attr/colorOnSurface"
                 android:textSize="@dimen/ts_16"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tv_chose_language" />
@@ -72,7 +72,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/lay_martop_8"
-                    android:textColor="@color/black"
+                    android:textColor="?attr/colorOnSurface"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/english"
                     android:textSize="@dimen/ts_24" />
@@ -81,14 +81,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:layout_marginStart="@dimen/lay_marstar_16"
-                    android:background="@color/slightly_grey" />
+                    android:textColor="?attr/colorSurface" />
 
                 <androidx.appcompat.widget.AppCompatRadioButton
                     android:id="@+id/rb_indonesia"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/lay_martop_8"
-                    android:textColor="@color/black"
+                    android:textColor="?attr/colorOnSurface"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/indonesia"
                     android:textSize="@dimen/ts_24" />
@@ -97,7 +97,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:layout_marginStart="@dimen/lay_marstar_16"
-                    android:background="@color/slightly_grey" />
+                    android:textColor="?attr/colorSurface" />
             </RadioGroup>
 
             <androidx.appcompat.widget.AppCompatButton
