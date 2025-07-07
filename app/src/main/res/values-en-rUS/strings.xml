@@ -78,7 +78,7 @@
     <string name="title_person">Profile</string>
     <string name="title_history">History</string>
     <string name="guide_your_glucose">Guide Your Glucose</string>
-    <string name="app_version_1_0">App Version 1.0</string>
+    <string name="app_version_1_0">App Version 1.0.0</string>
     <string name="application_logo">Application logo</string>
     <string name="onboarding_image">Onboarding image</string>
     <string name="sign_up_image">Sign up image</string>
@@ -189,71 +189,71 @@
     <string name="detail_tipe_1">Type 1 Details</string>
     <string name="mengenal_tipe_1_diabetes">Understanding Type 1 Diabetes</string>
     <string name="tipe_1_diabetes_adalah_penyakit_autoimun_ndi_mana_sistem_kekebalan_tubuh_secara_keliru_nmenyerang_dan_menghancurkan_sel_beta_ndi_pankreas_yang_bertanggung_jawab_nuntuk_memproduksi_insulin_insulin_adalah_hormon_nyang_berfungsi_mengatur_kadar_gula_n_glukosa_dalam_darah_agar_tetap_stabil_nkarena_tubuh_tidak_bisa_memproduksi_ninsulin_sendiri_penderita_diabetes_tipe_1_nmemerlukan_suntikan_insulin_seumur_hidup">
-    Type 1 diabetes is an autoimmune disease\nwhere the immune system mistakenly\nattacks and destroys beta cells\nin the pancreas, which are responsible\nfor producing insulin. Insulin is a hormone\nthat regulates blood sugar\n(glucose) levels to keep them stable.\nSince the body cannot produce\ninsulin on its own, individuals with type 1 diabetes\nrequire lifelong insulin injections.
+    Type 1 diabetes is an autoimmune disease where the immune system mistakenly attacks and destroys beta cells in the pancreas, which are responsible for producing insulin. Insulin is a hormone that regulates blood sugar (glucose) levels to keep them stable. Since the body cannot produce insulin on its own, individuals with type 1 diabetes require lifelong insulin injections.
     </string>
     <string name="penyebab">Causes</string>
     <string name="_1_faktor_genetik">1. Genetic Factors</string>
     <string name="beberapa_orang_memiliki_kecenderungan_ngenetik_yang_membuat_mereka_lebih_rentan_nterhadap_diabetes_tipe_1">
-    Some people have a genetic predisposition\nthat makes them more susceptible\nto type 1 diabetes.
+    Some people have a genetic predisposition that makes them more susceptible to type 1 diabetes.
     </string>
     <string name="_2_gangguan_autoimun">2. Autoimmune Disorder</string>
     <string name="sistem_kekebalan_tubuh_menyerang_sel_beta_npankreas_yang_memproduksi_insulin">
-    The immune system attacks beta cells\nin the pancreas that produce insulin.
+    The immune system attacks beta cells in the pancreas that produce insulin.
     </string>
     <string name="_3_infeksi_virus_atau_faktor_lingkungan">3. Viral Infection or Environmental Factors</string>
     <string name="beberapa_virus_tertentu_dapat_memicu_nrespons_autoimun_yang_menyebabkan_sistem_nkekebalan_tubuh_menyerang_sel_beta_pankreas_nfaktor_lingkungan_lain_seperti_pola_makan_ndan_paparan_zat_beracun_juga_dapat_nberkontribusi_pada_perkembangan_ndiabetes_tipe_1">
-    Certain viruses can trigger\nan autoimmune response that causes the\nimmunesystem to attack beta cells in the\npancreas. Other environmental factors,\nsuch as diet and exposure to toxins, can also\ncontribute to the development\nof type 1 diabetes.
+    Certain viruses can trigger an autoimmune response that causes the immunesystem to attack beta cells in the pancreas. Other environmental factors, such as diet and exposure to toxins, can also contribute to the development of type 1 diabetes.
     </string>
     <string name="gejala">Symptoms</string>
     <string name="gejala_diabetes_tipe_1_meliputi">Type 1 diabetes symptoms include:</string>
     <string name="mengenal_tipe_2_diabetes">Understanding Type 2 Diabetes</string>
     <string name="detail_tipe_2">Type 2 Details</string>
     <string name="diabetes_tipe_2_terjadi_ketika_tubuh_tidak_nmerespons_insulin_dengan_baik_resistensi_ninsulin_atau_pankreas_tidak_cukup_nmemproduksi_insulin_untuk_mengontrol_nkadar_gula_darah">
-    Type 2 diabetes occurs when the body\ndoes not respond properly to insulin\n(insulin resistance) or the pancreas does\nnot produce enough insulin to regulate\nblood sugar levels.
+    Type 2 diabetes occurs when the body does not respond properly to insulin (insulin resistance) or the pancreas does not produce enough insulin to regulate blood sugar levels.
     </string>
     <string name="_1_gaya_hidup_tidak_sehat">1. Unhealthy Lifestyle</string>
-    <string name="konsumsi_makanan_tinggi_gula_dan_nlemak_jenuh">Consumption of high-sugar and\nsaturated fat foods.</string>
+    <string name="konsumsi_makanan_tinggi_gula_dan_nlemak_jenuh">Consumption of high-sugar and saturated fat foods.</string>
     <string name="_2_kurang_aktivitas_fisik">2. Lack of Physical Activity</string>
     <string name="kurangnya_olahraga_menyebabkan_ntubuh_kurang_efisien_dalam_nmenggunakan_insulin">
-    Lack of exercise causes the body\nto be less efficient in\nusing insulin.
+    Lack of exercise causes the body to be less efficient in using insulin.
     </string>
     <string name="_3_obesitas_atau_kelebihan_berat_badan">3. Obesity or Overweight</string>
     <string name="lemak_berlebih_terutama_di_sekitar_perut_nmeningkatkan_resistensi_insulin">
-    Excess fat, especially around the abdomen,\nincreases insulin resistance.
+    Excess fat, especially around the abdomen, increases insulin resistance.
     </string>
     <string name="_1_riwayat_keluarga_dengan_diabetes">1. Family History of Diabetes</string>
-    <string name="_2_obesitas_atau_kelebihan_berat_n_badan_sebelum_hamil">2. Obesity or Overweight\n Before Pregnancy</string>
+    <string name="_2_obesitas_atau_kelebihan_berat_n_badan_sebelum_hamil">2. Obesity or Overweight Before Pregnancy</string>
     <string name="_3_usia_di_atas_25_tahun">3. Age Over 25 Years</string>
     <string name="_4_pernah_mengalami_diabetes_n_gestasional_sebelumnya">4. Previously Experienced\n Gestational Diabetes</string>
     <string name="_5_sindrom_ovarium_polikistik_pcos">5. Polycystic Ovary Syndrome (PCOS)</string>
-    <string name="_6_pernah_melahirkan_bayi_dengan_n_berat_lebih_dari_4_kg">6. Previously Gave Birth to a Baby\n Weighing More Than 4 kg</string>
+    <string name="_6_pernah_melahirkan_bayi_dengan_n_berat_lebih_dari_4_kg">6. Previously Gave Birth to a Baby Weighing More Than 4 kg</string>
     <string name="_4_genetik_atau_riwayat_keluarga">4. Genetics or Family History</string>
     <string name="jika_orang_tua_atau_saudara_kandung_nmemiliki_diabetes_tipe_2_risikonya_meningkat">
-    If a parent or sibling has type 2 diabetes,\nthe risk increases.
+    If a parent or sibling has type 2 diabetes, the risk increases.
     </string>
     <string name="_5_usia_di_atas_45_tahun">5. Age Over 45</string>
     <string name="risiko_meningkat_seiring_bertambahnya_usia">The risk increases with age.</string>
     <string name="_6_riwayat_gestational_diabetes">6. History of Gestational Diabetes</string>
     <string name="wanita_yang_pernah_mengalami_diabetes_nsaat_hamil_lebih_berisiko_terkena_tipe_2">
-    Women who have had diabetes during\npregnancyare at a higher risk of\ndeveloping type 2.
+    Women who have had diabetes during pregnancyare at a higher risk of developing type 2.
     </string>
     <string name="gejala_diabetes_tipe_2_meliputi">Type 2 diabetes symptoms include:</string>
     <string name="detail_tipe_gestasional">Gestational Type Details</string>
     <string name="mengenal_tipe_diabetes_ngestasional">Understanding Gestational\nDiabetes</string>
     <string name="diabetes_gestasional_adalah_jenis_diabetes_nyang_terjadi_selama_kehamilan_biasanya_npada_trimester_kedua_atau_ketiga_kondisi_nini_terjadi_ketika_tubuh_ibu_hamil_tidak_ndapat_memproduksi_insulin_yang_cukup_nuntuk_mengimbangi_perubahan_hormon_nyang_meningkatkan_kadar_gula_darah">
-    Gestational diabetes is a type of diabetes\nthat occurs during pregnancy, usually\nin the second or third trimester. This condition\nhappens when the body of a pregnant woman\ncannot produce enough insulin\nto compensate for hormonal changes\nthat increase blood sugar levels.
+    Gestational diabetes is a type of diabetes that occurs during pregnancy, usually in the second or third trimester. This condition happens when the body of a pregnant woman cannot produce enough insulin to compensate for hormonal changes that increase blood sugar levels.
     </string>
     <string name="gejala_diabetes_tipe_gestasional_meliputi">Gestational diabetes symptoms include:</string>
     <string name="tips_makanan">Food Tips</string>
     <string name="tips_menu_makanan">Meal Plan Tips</string>
-    <string name="contoh_menu_sehari_nuntuk_pengidap_diabetes">Daily Meal Examples\nfor Diabetes Patients</string>
+    <string name="contoh_menu_sehari_nuntuk_pengidap_diabetes">Daily Meal Examples for Diabetes Patients</string>
     <string name="sarapan">Breakfast</string>
     <string name="_1_oatmeal_dengan_potongan_apel_n_dan_kacang_almond_n2_telur_rebus_roti_gandum">
-    1. Oatmeal with apple slices\n and almonds\n2. Boiled eggs + whole wheat bread
+    1. Oatmeal with apple slices and almonds\n2. Boiled eggs + whole wheat bread
     </string>
     <string name="snack_pagi">Morning Snack</string>
     <string name="_1_edamame_rebus_atau_n_segenggam_kacang_almond">
-    1. Boiled edamame or\n a handful of almonds
+    1. Boiled edamame or a handful of almonds
     </string>
     <string name="makan_siang">Lunch</string>
     <string name="_1_nasi_merah_dada_ayam_n_panggang_tumis_brokoli_n2_tahu_tempe_rebus">
@@ -261,14 +261,14 @@
     </string>
     <string name="snack_sore">Afternoon Snack</string>
     <string name="_1_yogurt_tanpa_gula_dengan_n_buah_stroberi">
-    1. Sugar-free yogurt with\n strawberries
+    1. Sugar-free yogurt with strawberries
     </string>
     <string name="makan_malam">Dinner</string>
     <string name="_1_sup_sayur_dengan_tahu_n_ikan_panggang_n2_smoothie_alpukat_tanpa_gula">
-    1. Vegetable soup with tofu +\n grilled fish\n2. Sugar-free avocado smoothie
+    1. Vegetable soup with tofu + grilled fish\n2. Sugar-free avocado smoothie
     </string>
-    <string name="tips_makanan_untuk_npengidap_diabetes">Food Tips for\nPeople with Diabetes</string>
-    <string name="pengidap_diabetes_perlu_mengontrol_kadar_ngula_darah_dengan_pola_makan_sehat_berikut_nadalah_tips_memilih_makanan_yang_baik_nuntuk_diabetes_serta_makanan_yang_nsebaiknya_dihindari">People with diabetes need to control their\nblood sugar levels with a healthy diet. Below\nare tips for choosing good foods\nfor diabetes and foods that\nshould be avoided.</string>
+    <string name="tips_makanan_untuk_npengidap_diabetes">Food Tips for People with Diabetes</string>
+    <string name="pengidap_diabetes_perlu_mengontrol_kadar_ngula_darah_dengan_pola_makan_sehat_berikut_nadalah_tips_memilih_makanan_yang_baik_nuntuk_diabetes_serta_makanan_yang_nsebaiknya_dihindari">People with diabetes need to control their blood sugar levels with a healthy diet. Below are tips for choosing good foods for diabetes and foods that should be avoided.</string>
     <string name="pilih_karbohidrat_yang_baik">Choose Healthy Carbohydrates</string>
     <string name="pilihan_yang_sehat">Healthy Choices</string>
     <string name="_1_nasi_merah_quinoa_oatmeal_n2_roti_gandum_utuh_pasta_gandum_n3_kacang_kacangan_lentil_n4_sayuran_bertepung_ubi_labu">1. Brown rice, quinoa, oatmeal\n2. Whole wheat bread, whole wheat pasta\n3. Beans, lentils\n4. Starchy vegetables (sweet potatoes, pumpkin)</string>
@@ -276,57 +276,57 @@
     <string name="_1_nasi_putih_mie_instan_n2_roti_putih_tepung_terigu_olahan_n3_kentang_goreng_makanan_cepat_saji">1. White rice, instant noodles\n2. White bread, refined wheat flour\n3. French fries, fast food</string>
     <string name="konsumsi_protein_sehat">Consume Healthy Proteins</string>
     <string name="_1_ikan_salmon_tuna_sarden_n2_dada_ayam_tanpa_kulit_n3_tahu_tempe_edamame_n4_telur_rebus_n5_kacang_almond_kenari_chia_seeds">1. Salmon, tuna, sardines\n2. Skinless chicken breast\n3. Tofu, tempeh, edamame\n4. Boiled eggs\n5. Almonds, walnuts, chia seeds</string>
-    <string name="_1_daging_olahan_sosis_nugget_n_bakso_instan_n2_daging_berlemak_tinggi_kulit_ayam_n_daging_berlemak">1. Processed meats (sausages, nuggets,\n instant meatballs)\n2. High-fat meats (chicken skin,\n fatty meat)</string>
+    <string name="_1_daging_olahan_sosis_nugget_n_bakso_instan_n2_daging_berlemak_tinggi_kulit_ayam_n_daging_berlemak">1. Processed meats (sausages, nuggets, instant meatballs)\n2. High-fat meats (chicken skin, fatty meat)</string>
     <string name="perbanyak_serat_dari_buah_dan_sayur">Increase Fiber from Fruits and Vegetables</string>
     <string name="_1_brokoli_bayam_wortel_tomat_n2_apel_pir_alpukat_stroberi_n3_kacang_kacangan_dan_biji_bijian">1. Broccoli, spinach, carrots, tomatoes\n2. Apples, pears, avocados, strawberries\n3. Beans and seeds</string>
     <string name="_1_buah_tinggi_gula_seperti_anggur_n_durian_nangka_mangga_n_terlalu_matang_n2_jus_buah_dengan_tambahan_gula">1. High-sugar fruits such as grapes,\n durian, jackfruit, overripe mango\n2. Fruit juices with added sugar</string>
     <string name="hindari_gula_berlebihan_dan_ganti_ndengan_pemanis_sehat">Avoid Excess Sugar and Replace\nwith Healthy Sweeteners</string>
     <string name="_1_stevia_erythritol_monk_fruit_n2_madu_dalam_jumlah_terbatas_n3_kurma_sebagai_pemanis_alami">1. Stevia, erythritol, monk fruit\n2. Honey in limited amounts\n3. Dates as a natural sweetener</string>
-    <string name="_1_gula_pasir_sirup_kental_manis_n2_minuman_bersoda_teh_manis_n_kopi_susu_instan_n3_coklat_dan_permen_manis">1. Granulated sugar, syrup\n     sweetened condensed milk\n2. Soft drinks, sweetened tea,\n instant coffee with milk\n3. Chocolate and sugary candies</string>
+    <string name="_1_gula_pasir_sirup_kental_manis_n2_minuman_bersoda_teh_manis_n_kopi_susu_instan_n3_coklat_dan_permen_manis">1. Granulated sugar, syrup sweetened condensed milk\n2. Soft drinks, sweetened tea, instant coffee with milk\n3. Chocolate and sugary candies</string>
     <string name="batasi_makanan_tinggi_lemak_jahat">Limit Foods High in Unhealthy Fats</string>
     <string name="_1_minyak_zaitun_minyak_kelapa_murni_n2_alpukat_kacang_kacangan_biji_chia_n3_ikan_berlemak_tinggi_omega_3">1. Olive oil, virgin coconut oil\n2. Avocados, nuts, chia seeds\n3. Fatty fish high in omega-3</string>
     <string name="_1_gorengan_margarin_fast_food_n2_keripik_snack_kemasan_tinggi_garam_n3_makanan_cepat_saji">1. Fried foods, margarine, fast food\n2. Chips, packaged snacks high in salt\n3. Fast food</string>
     <string name="minum_air_putih_dan_hindari_nminuman_manis">Drink Water and Avoid\nSugary Beverages</string>
-    <string name="_1_air_putih_minimal_8_gelas_hari_n2_infused_water_lemon_mentimun_n_daun_mint_n3_teh_hijau_tanpa_gula">1. At least 8 glasses of water per day\n2. Infused water (lemon, cucumber,\n mint leaves)\n3. Unsweetened green tea</string>
+    <string name="_1_air_putih_minimal_8_gelas_hari_n2_infused_water_lemon_mentimun_n_daun_mint_n3_teh_hijau_tanpa_gula">1. At least 8 glasses of water per day\n2. Infused water (lemon, cucumber, mint leaves)\n3. Unsweetened green tea</string>
     <string name="_1_minuman_bersoda_teh_kemasan_n2_kopi_dengan_krimer_gula_berlebihan_n3_minuman_boba">1. Soft drinks, packaged tea\n2. Coffee with excessive creamer/sugar\n3. Boba drinks</string>
     <string name="komplikasi_diabetes">Diabetes Complications</string>
-    <string name="diabetes_melitus_adalah_kondisi_kronis_nyang_dapat_menyebabkan_berbagai_nkomplikasi_serius_jika_tidak_dikelola_ndengan_baik_komplikasi_ini_umumnya_ndibagi_menjadi_dua_kategori_utama_nmikrovaskular_dan_makrovaskular">Diabetes mellitus is a chronic condition\nthat can lead to serious complications\nif not managed properly. These complications\nare generally categorized into two types:\nmicrovascular and macrovascular.</string>
+    <string name="diabetes_melitus_adalah_kondisi_kronis_nyang_dapat_menyebabkan_berbagai_nkomplikasi_serius_jika_tidak_dikelola_ndengan_baik_komplikasi_ini_umumnya_ndibagi_menjadi_dua_kategori_utama_nmikrovaskular_dan_makrovaskular">Diabetes mellitus is a chronic condition that can lead to serious complications if not managed properly. These complications are generally categorized into two types: microvascular and macrovascular.</string>
     <string name="komplikasi_mikrovaskular">Microvascular Complications</string>
     <string name="retinopati_diabetik">Diabetic Retinopathy</string>
-    <string name="kerusakan_pada_pembuluh_darah_kecil_ndi_retina_mata_yang_dapat_menyebabkan_ngangguan_penglihatan_hingga_kebutaan">Damage to small blood vessels\nin the retina, which can cause\nvision problems and even blindness.</string>
+    <string name="kerusakan_pada_pembuluh_darah_kecil_ndi_retina_mata_yang_dapat_menyebabkan_ngangguan_penglihatan_hingga_kebutaan">Damage to small blood vessels in the retina, which can cause vision problems and even blindness.</string>
     <string name="nefropati_diabetik">Diabetic Nephropathy</string>
-    <string name="kerusakan_pada_ginjal_akibat_kadar_ngula_darah_yang_tinggi_berpotensi_nberkembang_menjadi_gagal_ginjal_kronis">Kidney damage due to high\nblood sugar levels, which may lead\nto chronic kidney failure.</string>
+    <string name="kerusakan_pada_ginjal_akibat_kadar_ngula_darah_yang_tinggi_berpotensi_nberkembang_menjadi_gagal_ginjal_kronis">Kidney damage due to high blood sugar levels, which may lead to chronic kidney failure.</string>
     <string name="neuropati_diabetik">Diabetic Neuropathy</string>
-    <string name="kerusakan_saraf_yang_menyebabkan_ngejala_seperti_kesemutan_nyeri_atau_nmati_rasa_terutama_pada_ekstremitas">Nerve damage causing symptoms\nsuch as tingling, pain, or numbness,\nmostly in the extremities.</string>
+    <string name="kerusakan_saraf_yang_menyebabkan_ngejala_seperti_kesemutan_nyeri_atau_nmati_rasa_terutama_pada_ekstremitas">Nerve damage causing symptoms such as tingling, pain, or numbness, mostly in the extremities.</string>
     <string name="komplikasi_makrovaskular">Macrovascular Complications</string>
     <string name="penyakit_jantung_koroner">Coronary Heart Disease</string>
-    <string name="peningkatan_risiko_serangan_jantung_nakibat_penyempitan_pembuluh_ndarah_koroner">Increased risk of heart attacks\ndue to narrowing of coronary arteries.</string>
+    <string name="peningkatan_risiko_serangan_jantung_nakibat_penyempitan_pembuluh_ndarah_koroner">Increased risk of heart attacks due to narrowing of coronary arteries.</string>
     <string name="stroke">Stroke</string>
-    <string name="risiko_lebih_tinggi_untuk_mengalami_nstroke_akibat_gangguan_aliran_ndarah_ke_otak">Higher risk of stroke due to\nimpaired blood flow to the brain.</string>
+    <string name="risiko_lebih_tinggi_untuk_mengalami_nstroke_akibat_gangguan_aliran_ndarah_ke_otak">Higher risk of stroke due to impaired blood flow to the brain.</string>
     <string name="penyakit_arteri_perifer">Peripheral Artery Disease</string>
-    <string name="penyempitan_pembuluh_darah_di_nekstremitas_yang_dapat_nmenyebabkan_nyeri_dan_ngangguan_sirkulasi">Narrowing of blood vessels\nin the extremities, causing\npain and circulation problems.</string>
+    <string name="penyempitan_pembuluh_darah_di_nekstremitas_yang_dapat_nmenyebabkan_nyeri_dan_ngangguan_sirkulasi">Narrowing of blood vessels in the extremities, causing pain and circulation problems.</string>
     <string name="saran_olahraga">Exercise Recommendations</string>
     <string name="olahraga_memiliki_peran_penting_ndalam_pengelolaan_diabetes_nmembantu_mengendalikan_kadar_ngula_darah_dan_meningkatkan_nkesehatan_secara_keseluruhan_nberikut_beberapa_rekomendasi_nolahraga_yang_aman_dan_efektif_bagi_npenderita_diabetes">
-    Exercise plays an important role\nin diabetes management,\nhelping to control blood sugar levels\nand improve overall health.\nHere are some safe and effective\nexercise recommendations for people with diabetes:
+    Exercise plays an important role in diabetes management, helping to control blood sugar levels and improve overall health. Here are some safe and effective exercise recommendations for people with diabetes:
     </string>
     <string name="aktivitas_fisik_sederhana_seperti_berjalan_nkaki_dapat_membantu_menurunkan_nkadar_gula_darah_dan_meningkatkan_nsensitivitas_insulin_sebuah_tinjauan_npenelitian_pada_tahun_2021_menunjukkan_nbahwa_berjalan_kaki_dapat_membantu_npenderita_diabetes_tipe_2_menurunkan_ntekanan_darah_kadar_hba1c_dan_nindeks_massa_tubuh_bmi">
-    Simple physical activities like walking\ncan help lower blood sugar levels\nand improve insulin sensitivity.\nA 2021 research review showed\nthat walking can help\npeople with type 2 diabetes reduce\nblood pressure, HbA1c levels,\nand body mass index (BMI).
+    Simple physical activities like walking can help lower blood sugar levels and improve insulin sensitivity. A 2021 research review showed that walking can help people with type 2 diabetes reduce blood pressure, HbA1c levels, and body mass index (BMI).
     </string>
     <string name="jalan_kaki">Walking</string>
     <string name="bersepeda">Cycling</string>
     <string name="bersepeda_merupakan_olahraga_nberdampak_rendah_yang_cocok_bagi_npenderita_diabetes_terutama_yang_nmemiliki_masalah_persendian_naktivitas_ini_membantu_meningkatkan_nkebugaran_kardiovaskular_dan_nmengontrol_kadar_gula_darah">
-    Cycling is a low-impact exercise\nsuitable for people with diabetes,\nespecially those with joint problems.\nThis activity helps improve\ncardiovascular fitness\nand control blood sugar levels.
+    Cycling is a low-impact exercise suitable for people with diabetes, especially those with joint problems. This activity helps improve cardiovascular fitness and control blood sugar levels.
     </string>
     <string name="senam_kaki_diabetes">Diabetes Foot Exercise</string>
     <string name="senam_khusus_ini_dirancang_untuk_nmeningkatkan_sirkulasi_darah_dan_nmencegah_komplikasi_pada_kaki_akibat_ndiabetes_penelitian_menunjukkan_nbahwa_senam_kaki_diabetes_dapat_nmembantu_menurunkan_kadar_nglukosa_darah_pada_penderita_ndiabetes_mellitus_tipe_2">
-    This specialized exercise is designed\nto improve blood circulation\nand prevent foot complications\ncaused by diabetes.\nResearch has shown that\ndiabetes foot exercise\ncan help lower blood glucose levels\nin people with type 2 diabetes mellitus.
+    This specialized exercise is designed to improve blood circulation and prevent foot complications caused by diabetes. Research has shown that diabetes foot exercise can help lower blood glucose levels in people with type 2 diabetes mellitus.
     </string>
     <string name="latihan_ketahanan">Resistance Training</string>
     <string name="latihan_ini_melibatkan_penggunaan_nbeban_untuk_meningkatkan_massa_notot_yang_dapat_membantu_nmengontrol_kadar_gula_darah_nstudi_menunjukkan_bahwa_pelatihan_nketahanan_dapat_meningkatkan_nkontrol_glikemik_pada_penderita_ndiabetes_tipe_2">
-    This training involves using weights\nto build muscle mass,\nwhich helps control blood sugar levels.\nStudies have shown that resistance\ntraining can improve glycemic control\nin people with type 2 diabetes.
+    This training involves using weights to build muscle mass, which helps control blood sugar levels. Studies have shown that resistance training can improve glycemic control in people with type 2 diabetes.
     </string>
     <string name="anda_dapat_menerapkan_nkegiatan_di_atas_selama_15_menit_ndalam_satu_hari_atau_75_menit_ndalam_satu_minggu_dilakukan_n2_3_sesi">
-    You can perform the activities above\nfor 15 minutes per day or 75 minutes\nper week, done in 2-3 sessions.
+    You can perform the activities above for 15 minutes per day or 75 minutes per week, done in 2-3 sessions.
     </string>
     <string name="tipe1dan2">fYIjOErJJw4</string>
     <string name="tipegestasional">nukrZNjDSqo</string>
