@@ -9,8 +9,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/background">
+        android:layout_height="wrap_content">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/materialCardView"
@@ -91,8 +90,8 @@
             android:id="@+id/cv_gula_darah"
             android:layout_width="0dp"
             android:layout_height="126dp"
-            android:background="@color/white"
             app:cardCornerRadius="16dp"
+            app:cardBackgroundColor="?attr/colorSurface"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/guideline6"
             app:layout_constraintStart_toStartOf="@+id/guideline5"
@@ -111,7 +110,7 @@
                     android:layout_marginTop="16sp"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/gula_darah"
-                    android:textColor="@color/black"
+                    android:textColor="?attr/colorOnSurface"
                     android:textSize="14sp" />
 
                 <TextView
@@ -120,7 +119,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/_0"
-                    android:textColor="@color/black"
+                    android:textColor="?attr/colorOnSurface"
                     android:textSize="32sp" />
 
                 <TextView
@@ -130,7 +129,7 @@
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/mg_dl"
-                    android:textColor="@color/black"
+                    android:textColor="?attr/colorOnSurface"
                     android:textSize="14sp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -139,8 +138,8 @@
             android:id="@+id/cv_hemoglobin"
             android:layout_width="0dp"
             android:layout_height="126dp"
-            android:background="@color/white"
             app:cardCornerRadius="16dp"
+            app:cardBackgroundColor="?attr/colorSurface"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/guideline8"
             app:layout_constraintStart_toStartOf="@+id/guideline7"
@@ -159,7 +158,7 @@
                     android:layout_marginTop="16sp"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/hemoglobin"
-                    android:textColor="@color/black"
+                    android:textColor="?attr/colorOnSurface"
                     android:textSize="14sp" />
 
                 <TextView
@@ -168,7 +167,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/_0_0"
-                    android:textColor="@color/black"
+                    android:textColor="?attr/colorOnSurface"
                     android:textSize="32sp" />
 
                 <TextView
@@ -178,7 +177,7 @@
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/g_dl"
-                    android:textColor="@color/black"
+                    android:textColor="?attr/colorOnSurface"
                     android:textSize="14sp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -187,8 +186,8 @@
             android:id="@+id/cv_diabetes_risk"
             android:layout_width="0dp"
             android:layout_height="126dp"
-            android:background="@color/white"
             app:cardCornerRadius="16dp"
+            app:cardBackgroundColor="?attr/colorSurface"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/guideline10"
             app:layout_constraintStart_toStartOf="@+id/guideline9"
@@ -207,7 +206,7 @@
                     android:layout_marginTop="16sp"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/diabetes_risk"
-                    android:textColor="@color/black"
+                    android:textColor="?attr/colorOnSurface"
                     android:textSize="14sp" />
 
                 <TextView
@@ -218,7 +217,7 @@
                     android:fontFamily="@font/poppins_semibold"
                     android:gravity="center"
                     android:text="@string/normal"
-                    android:textColor="@color/black"
+                    android:textColor="?attr/colorOnSurface"
                     android:textSize="16sp" />
 
                 <TextView
@@ -229,7 +228,7 @@
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/resiko"
-                    android:textColor="@color/black"
+                    android:textColor="?attr/colorOnSurface"
                     android:textSize="14sp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -249,6 +248,7 @@
             android:gravity="center"
             android:padding="8dp"
             android:text="@string/cek_diabetes"
+            android:textColor="?attr/colorOnSurface"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -261,8 +261,8 @@
             android:layout_marginTop="16dp"
             android:fontFamily="@font/poppins_medium"
             android:text="@string/rekomendasi"
-            android:textColor="@color/black"
             android:textSize="16sp"
+            android:textColor="?attr/colorOnBackground"
             app:layout_constraintStart_toStartOf="@+id/btn_cek_diabetes"
             app:layout_constraintTop_toBottomOf="@+id/btn_cek_diabetes" />
 
@@ -392,7 +392,7 @@
             android:layout_marginTop="16dp"
             android:fontFamily="@font/poppins_medium"
             android:text="@string/artikel"
-            android:textColor="@color/black"
+            android:textColor="?attr/colorOnBackground"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="@+id/cv_olahraga"
             app:layout_constraintTop_toBottomOf="@+id/cv_olahraga" />
