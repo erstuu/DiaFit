@@ -20,7 +20,7 @@ class UserPreference @Inject constructor(@ApplicationContext context: Context) {
 
     fun getUsername(): Flow<String> {
         return dataStore.data.map { preferences ->
-            val name = preferences[USER_NAME] ?: "Sobat Diafit"
+            val name = preferences[USER_NAME] ?: DEFAULT_NAME
             name
         }
     }
@@ -33,14 +33,14 @@ class UserPreference @Inject constructor(@ApplicationContext context: Context) {
 
     fun getLanguageSetting(): Flow<String> {
         return dataStore.data.map { preferences ->
-            val lang = preferences[LANGUAGE] ?: "id"
+            val lang = preferences[LANGUAGE] ?: DEFAULT_LANGUAGE
             lang
         }
     }
 
     fun getLanguageSync(): String {
         return runBlocking {
-            dataStore.data.first()[LANGUAGE] ?: "id"
+            dataStore.data.first()[LANGUAGE] ?: DEFAULT_LANGUAGE
         }
     }
 
@@ -70,7 +70,10 @@ class UserPreference @Inject constructor(@ApplicationContext context: Context) {
         private val USER_NAME = stringPreferencesKey("name")
         private val LANGUAGE = stringPreferencesKey("language")
         private val ONBOARDING_COMPLETED = booleanPreferencesKey("onboarding_completed")
+
+        private const val DEFAULT_LANGUAGE = "id"
+        private const val DEFAULT_NAME = "Sobat Diafit"
     }
 }
 
-val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "session")
+val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "userPreference")

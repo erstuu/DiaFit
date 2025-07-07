@@ -26,7 +26,7 @@ roomRuntime = "2.6.1"
 symbolProcessingApi = "1.9.20-1.0.14"
 junitJunit = "4.12"
 viewpager2 = "1.1.0"
-youtubePlayer = "12.1.1"
+youtubePlayer = "12.1.2"
 
 [libraries]
 androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activity" }
