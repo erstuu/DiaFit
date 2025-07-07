@@ -23,7 +23,7 @@ class ProfileFragment : Fragment() {
     private val binding get() = _binding!!
 
     private val viewModel: ProfileViewModel by viewModels()
-    private val bottomChoseLanguageDialog by lazy { BottomChoseLanguageDialog(requireContext(), viewModel) }
+    private val bottomChoseLanguageDialog by lazy { BottomChoseLanguageDialog(requireContext(), viewModel, viewLifecycleOwner) }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

@@ -63,6 +63,7 @@ class EditProfileFragment : Fragment() {
                         is ResultState.Success -> {
                             progressDialog.hideLoading()
                             showSnackbar(getString(R.string.profile_updated), R.id.bottom_navigation, R.color.diaPrimary)
+                            findNavController().navigateUp()
                         }
                         is ResultState.Error -> {
                             progressDialog.hideLoading()
