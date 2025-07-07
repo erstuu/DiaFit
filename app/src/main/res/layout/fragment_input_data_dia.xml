@@ -3,7 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/background"
     android:fillViewport="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -33,6 +32,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:cardElevation="1dp"
+            android:backgroundTint="?attr/colorSurface"
             app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
             app:layout_constraintStart_toStartOf="@id/guidelineStart"
             app:layout_constraintTop_toTopOf="@+id/guideline3">
@@ -50,6 +50,7 @@
                     android:fontFamily="@font/poppins_semibold"
                     android:text="@string/double_check_your_information"
                     android:textSize="@dimen/ts_16"
+                    android:textColor="?attr/colorOnSurface"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -63,6 +64,7 @@
                     android:fontFamily="@font/poppins_semibold"
                     android:text="@string/just_one_more_step"
                     android:textSize="@dimen/ts_30"
+                    android:textColor="?attr/colorOnSurface"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="@+id/textView3"
                     app:layout_constraintHorizontal_bias="0.0"
@@ -79,6 +81,7 @@
             android:layout_marginTop="@dimen/lay_martop_88"
             app:cardCornerRadius="@dimen/corner_radius_26"
             app:cardElevation="2dp"
+            app:cardBackgroundColor="?attr/colorSurface"
             app:layout_constraintHorizontal_bias="0.483"
             app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
             app:layout_constraintStart_toStartOf="@id/guidelineStart"
@@ -86,8 +89,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/white">
+                android:layout_height="match_parent">
 
                 <TextView
                     android:id="@+id/tv_gender"
@@ -97,6 +99,7 @@
                     android:layout_marginTop="@dimen/lay_martop_8"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="@string/gender"
+                    android:textColor="?attr/colorOnSurface"
                     android:textSize="@dimen/ts_14"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -123,9 +126,9 @@
                         android:fontFamily="@font/poppins_medium"
                         android:hint="@string/select_your_gender"
                         android:inputType="none"
-                        android:padding="@dimen/padding_15"
-                        android:popupBackground="@color/grey"
-                        android:textColor="@color/black" />
+                        android:padding="0dp"
+                        android:popupBackground="?attr/colorSurfaceVariant"
+                        android:textColorHint="?attr/colorOnSurfaceVariant" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <TextView
@@ -137,6 +140,7 @@
                     android:fontFamily="@font/poppins_semibold"
                     android:text="@string/age"
                     android:textSize="@dimen/ts_14"
+                    android:textColor="?attr/colorOnSurface"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textInputGender" />
 
@@ -162,9 +166,9 @@
                         android:fontFamily="@font/poppins_medium"
                         android:hint="@string/enter_your_age"
                         android:inputType="none"
-                        android:padding="@dimen/padding_15"
-                        android:popupBackground="@color/grey"
-                        android:textColor="@color/black" />
+                        android:padding="0dp"
+                        android:popupBackground="?attr/colorSurfaceVariant"
+                        android:textColorHint="?attr/colorOnSurfaceVariant" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <TextView
@@ -176,6 +180,7 @@
                     android:fontFamily="@font/poppins_semibold"
                     android:text="@string/smoking_history"
                     android:textSize="@dimen/ts_14"
+                    android:textColor="?attr/colorOnSurface"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textInputAge" />
 
@@ -201,9 +206,9 @@
                         android:fontFamily="@font/poppins_medium"
                         android:hint="@string/do_you_smoke"
                         android:inputType="none"
-                        android:padding="@dimen/padding_15"
-                        android:popupBackground="@color/grey"
-                        android:textColor="@color/black" />
+                        android:padding="0dp"
+                        android:popupBackground="?attr/colorSurfaceVariant"
+                        android:textColorHint="?attr/colorOnSurfaceVariant" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <TextView
@@ -215,6 +220,7 @@
                     android:fontFamily="@font/poppins_semibold"
                     android:text="@string/heart_disease"
                     android:textSize="@dimen/ts_14"
+                    android:textColor="?attr/colorOnSurface"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textInputSmokingHistory" />
 
@@ -240,9 +246,9 @@
                         android:fontFamily="@font/poppins_medium"
                         android:hint="@string/any_history_of_heart_disease"
                         android:inputType="none"
-                        android:padding="@dimen/padding_15"
-                        android:popupBackground="@color/grey"
-                        android:textColor="@color/black" />
+                        android:padding="0dp"
+                        android:popupBackground="?attr/colorSurfaceVariant"
+                        android:textColorHint="?attr/colorOnSurfaceVariant" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <TextView
@@ -254,6 +260,7 @@
                     android:fontFamily="@font/poppins_semibold"
                     android:text="@string/hypertension"
                     android:textSize="@dimen/ts_14"
+                    android:textColor="?attr/colorOnSurface"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textInputHeartDisease" />
 
@@ -279,9 +286,9 @@
                         android:fontFamily="@font/poppins_medium"
                         android:hint="@string/do_you_have_high_blood_pressure"
                         android:inputType="none"
-                        android:padding="@dimen/padding_15"
-                        android:popupBackground="@color/grey"
-                        android:textColor="@color/black" />
+                        android:padding="0dp"
+                        android:popupBackground="?attr/colorSurfaceVariant"
+                        android:textColorHint="?attr/colorOnSurfaceVariant" />
                 </com.google.android.material.textfield.TextInputLayout>
 
             </androidx.constraintlayout.widget.ConstraintLayout>

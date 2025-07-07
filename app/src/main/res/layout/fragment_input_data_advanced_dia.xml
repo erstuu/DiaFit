@@ -3,7 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/background"
     android:fillViewport="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -41,8 +40,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/white">
+                android:layout_height="wrap_content">
 
                 <!-- Body Weight -->
                 <TextView
@@ -54,6 +52,7 @@
                     android:fontFamily="@font/poppins_semibold"
                     android:text="@string/berat_badan"
                     android:textSize="@dimen/ts_14"
+                    android:textColor="?attr/colorOnSurface"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -77,7 +76,9 @@
                         android:fontFamily="@font/poppins_medium"
                         android:hint="@string/masukkan_berat_badan_kamu"
                         android:inputType="numberDecimal"
-                        android:padding="@dimen/padding_15" />
+                        android:padding="0dp"
+                        android:popupBackground="?attr/colorSurfaceVariant"
+                        android:textColorHint="?attr/colorOnSurfaceVariant" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <!-- Body Height -->
@@ -90,6 +91,7 @@
                     android:fontFamily="@font/poppins_semibold"
                     android:text="@string/tinggi_badan"
                     android:textSize="@dimen/ts_14"
+                    android:textColor="?attr/colorOnSurface"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/textInputBodyWeight" />
 
@@ -113,7 +115,9 @@
                         android:fontFamily="@font/poppins_medium"
                         android:hint="@string/masukkan_tinggi_badan_kamu"
                         android:inputType="numberDecimal"
-                        android:padding="@dimen/padding_15" />
+                        android:padding="0dp"
+                        android:popupBackground="?attr/colorSurfaceVariant"
+                        android:textColorHint="?attr/colorOnSurfaceVariant" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <!-- Hemoglobin A1C Level -->
@@ -126,6 +130,7 @@
                     android:fontFamily="@font/poppins_semibold"
                     android:text="@string/hemoglobin_a1c_level"
                     android:textSize="@dimen/ts_14"
+                    android:textColor="?attr/colorOnSurface"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/textInputBodyHeight" />
 
@@ -149,7 +154,9 @@
                         android:fontFamily="@font/poppins_medium"
                         android:hint="@string/enter_your_hba1c"
                         android:inputType="numberDecimal"
-                        android:padding="@dimen/padding_15" />
+                        android:padding="0dp"
+                        android:popupBackground="?attr/colorSurfaceVariant"
+                        android:textColorHint="?attr/colorOnSurfaceVariant" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <!-- Blood Glucose Level -->
@@ -162,6 +169,7 @@
                     android:fontFamily="@font/poppins_semibold"
                     android:text="@string/glucose_level"
                     android:textSize="@dimen/ts_14"
+                    android:textColor="?attr/colorOnSurface"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/textInputHemoglobinA1cLevel" />
 
@@ -186,7 +194,9 @@
                         android:fontFamily="@font/poppins_medium"
                         android:hint="@string/enter_your_glucose_level"
                         android:inputType="number"
-                        android:padding="@dimen/padding_15" />
+                        android:padding="0dp"
+                        android:popupBackground="?attr/colorSurfaceVariant"
+                        android:textColorHint="?attr/colorOnSurfaceVariant" />
                 </com.google.android.material.textfield.TextInputLayout>
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
@@ -196,6 +206,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:cardElevation="2dp"
+            android:backgroundTint="?attr/colorSurface"
             app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
             app:layout_constraintStart_toStartOf="@id/guidelineStart"
             app:layout_constraintTop_toTopOf="@+id/guideline">
@@ -214,6 +225,7 @@
                     android:fontFamily="@font/poppins_semibold"
                     android:text="@string/double_check_your_information"
                     android:textSize="@dimen/ts_16"
+                    android:textColor="?attr/colorOnSurface"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -228,6 +240,7 @@
                     android:fontFamily="@font/poppins_semibold"
                     android:text="@string/make_sure_everything_is_correct_before_proceeding."
                     android:textSize="@dimen/ts_22"
+                    android:textColor="?attr/colorOnSurface"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
@@ -242,6 +255,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:cardElevation="1dp"
+            android:backgroundTint="?attr/colorSurface"
             app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
             app:layout_constraintStart_toStartOf="@id/guidelineStart"
             app:layout_constraintTop_toTopOf="@+id/guideline2">
@@ -259,6 +273,7 @@
                     android:fontFamily="@font/poppins_semibold"
                     android:text="@string/all_set_up"
                     android:textSize="@dimen/ts_16"
+                    android:textColor="?attr/colorOnSurface"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -270,6 +285,7 @@
                     android:fontFamily="@font/poppins_semibold"
                     android:text="@string/you_are_ready_to_go"
                     android:textSize="@dimen/ts_22"
+                    android:textColor="?attr/colorOnSurface"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="@+id/tv_all_set_up"
                     app:layout_constraintTop_toBottomOf="@+id/tv_all_set_up"
