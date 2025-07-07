@@ -4,7 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.activity.enableEdgeToEdge
-import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -14,18 +13,17 @@ import com.health.diafit.adapter.OnboardingAdapter
 import com.health.diafit.data.local.UserPreference
 import com.health.diafit.databinding.ActivityFirstOnBoardingBinding
 import com.health.diafit.ui.activity.main.MainActivity
-import com.health.diafit.ui.activity.main.MainViewModel
-import com.health.diafit.util.LocaleHelper
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.runBlocking
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class OnBoardingActivity : AppCompatActivity() {
     private var _binding: ActivityFirstOnBoardingBinding? = null
     private val binding get() = _binding!!
-    private val viewModel: MainViewModel by viewModels()
     private lateinit var adapter: OnboardingAdapter
-    private lateinit var userPreference: UserPreference
+    @Inject
+    lateinit var userPreference: UserPreference
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,11 +35,6 @@ class OnBoardingActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-        val language = viewModel.getLanguageSync()
-        LocaleHelper.updateLocale(this, language)
-
-        userPreference = UserPreference(this)
 
         setupViewPager()
         setupButtons()

@@ -9,6 +9,8 @@ import android.widget.RadioButton
 import android.widget.RadioGroup
 import androidx.appcompat.widget.AppCompatButton
 import androidx.core.content.ContextCompat
+import androidx.lifecycle.LifecycleOwner
+import androidx.lifecycle.Observer
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.card.MaterialCardView
 import com.google.android.material.shape.RoundedCornerTreatment
@@ -20,7 +22,8 @@ import java.util.Locale
 
 class BottomChoseLanguageDialog(
     private val context: Context,
-    private val viewModel: ProfileViewModel
+    private val viewModel: ProfileViewModel,
+    private val lifecycleOwner: LifecycleOwner
 ) {
     private val bottomChangeLanguageDialog: BottomSheetDialog = BottomSheetDialog(context)
     private val colorStateList = ContextCompat.getColorStateList(context, R.color.radio_button_selector)
@@ -46,21 +49,18 @@ class BottomChoseLanguageDialog(
             if (selectedId != -1) {
                 val selectedRadioButton = dialogLayout.findViewById<RadioButton>(selectedId)
                 val selectedLanguage = selectedRadioButton?.text.toString()
-                if (selectedLanguage == context.getString(R.string.english)) {
-                    viewModel.saveLanguage("en")
-                } else {
-                    viewModel.saveLanguage("id")
+                val languageCode = if (selectedLanguage == context.getString(R.string.english)) "en" else "id"
+
+                viewModel.saveLanguage(languageCode)
+
+                // Observe language changes
+                val languageObserver = Observer<String> { language ->
+                    updateLocale(language)
+                    bottomChangeLanguageDialog.dismiss()
+                    restartApplication()
                 }
-                viewModel.getLanguage().observeForever {
-                    if(selectedLanguage == Locale.getDefault().language) {
-                        updateLocale(Locale.getDefault().language.toString())
-                        bottomChangeLanguageDialog.dismiss()
-                    } else {
-                        updateLocale(it)
-                        bottomChangeLanguageDialog.dismiss()
-                        restartApplication()
-                    }
-                }
+
+                viewModel.getLanguage().observe(lifecycleOwner, languageObserver)
             }
         }
 

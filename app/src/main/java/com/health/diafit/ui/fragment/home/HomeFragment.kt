@@ -104,22 +104,24 @@ class HomeFragment : Fragment() {
                 "Penderita diabetes perlu memahami cara menurunkan gula darah agar kadarnya tetap stabil. Tidak hanya efektif mencegah lonjakan kadar gula, berbagai cara menurunkan gula darah ini juga dapat meminimalkan risiko terjadinya komplikasi akibat diabetes."),
 
             WebLink("Diabetes - Gejala, Penyebab, dan Pencegahan",
-                "https://www.biofarma.co.id/id/announcement/detail/diabetes-gejala-penyebab-dan-pencegahan",
-                "https://www.biofarma.co.id/media/image/originals/post/2023/11/24/1.png",
-                "Diabetes merupakan penyakit metabolik kronis yang ditandai dengan peningkatan kadar glukosa darah (atau gula darah) yang seiring waktu menyebabkan kerusakan serius pada jantung, pembuluh darah, mata, ginjal, dan saraf."),
+                "https://www.rspondokindah.co.id/id/news/diabetes-gejala-penyebab-penanganan",
+                "https://storage.googleapis.com/rspi-assets-production/rspi-api/uploads/MTcxNjM2MTQ4NzkzOQ==.jpg",
+                "Diabetes adalah kondisi tingginya gula darah yang kemudian dapat menyebabkan berbagai komplikasi. Simak jenis, gejala, penyebab, dan penanganan diabetes di sini."),
 
             WebLink("10 Cara Mengontrol Kadar Gula Darah bagi Orang Diabetes",
                 "https://hellosehat.com/diabetes/cara-mengontrol-gula-darah/",
                 "https://cdn.hellosehat.com/wp-content/uploads/2017/09/shutterstock_1727756401.jpg?w=750&q=75",
                 "Diabetes belum bisa disembuhkan sepenuhnya, tapi penyandang diabetes tetap bisa beraktivitas normal dengan mengontrol kadar gula darah dalam batas normal. Simak beberapa tips menjaga kadar gula darah tetap normal berikut ini."),
 
-            WebLink("18 Makanan Penurun Gula Darah untuk Mengatasi Diabetes",
-                "https://health.kompas.com/read/2020/08/16/073100568/18-makanan-penurun-gula-darah-untuk-mengatasi-diabetes?page=all",
-                "https://asset.kompas.com/crops/Ilc3cMjtFGCJhfszuUy7HSRVwwI=/0x0:998x665/1200x800/data/photo/2020/02/24/5e53cde894df3.jpg", "Essential lifestyle tips and changes you can adopt to help prevent diabetes and improve your overall health."),
+            WebLink("Daftar Makanan untuk Gula Darah Tinggi yang Sehat dan Enak",
+                "https://www.rspondokindah.co.id/id/news/makanan-untuk-gula-darah-tinggi",
+                "https://storage.googleapis.com/rspi-assets-production/rspi-api/uploads/MTcyOTA0NTI5NjkwMA==.jpg", "Essential lifestyle tips and changes you can adopt to help prevent diabetes and improve your overall health."),
 
-            WebLink("Simak Tips Atasi Diabetes Gestasional saat Hamil",
-                "https://herminahospitals.com/id/articles/simak-tips-atasi-diabetes-gestasional-saat-hamil.amp",
-                "https://dk4fkkwa4o9l0.cloudfront.net/production/uploads/article/image/697/Untitled_2.png", "Follow this step-by-step guide to learn how to prevent type 2 diabetes and reduce your risk.")
+            // bermasalah
+            WebLink("Diabetes Gestasional: Pengertian, Penyebab, Faktor Resiko, Gejala dan Pengobatannya",
+                "https://www.rspondokindah.co.id/id/news/diabetes-gestasional--diabetesnya-ibu-hamil",
+                "https://storage.googleapis.com/rspi-assets-production/rspi-api/uploads/5eafc53b5c66e_20200504143315-1.jpg",
+                "Diabetes gestasional adalah kondisi meningkatnya kadar gula darah selama kehamilan akibat tubuh tidak mampu memproduksi cukup insulin untuk mengimbangi perubahan hormon.")
         )
 
         binding.rvArtikel.layoutManager = LinearLayoutManager(requireContext())

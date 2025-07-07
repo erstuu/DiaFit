@@ -1,8 +1,9 @@
 package com.health.diafit.ui.activity.main
 
+import android.os.Build
 import android.os.Bundle
 import android.view.View
-import androidx.activity.viewModels
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -11,15 +12,14 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.health.diafit.R
 import com.health.diafit.databinding.ActivityMainBinding
-import com.health.diafit.util.LocaleHelper
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-    private val viewModel: MainViewModel by viewModels()
 
+    @RequiresApi(Build.VERSION_CODES.N)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -29,9 +29,6 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-        val language = viewModel.getLanguageSync()
-        LocaleHelper.updateLocale(this, language)
 
         setupNavigationController(binding)
     }
@@ -78,6 +75,12 @@ class MainActivity : AppCompatActivity() {
                     navView.visibility = View.GONE
                 }
                 R.id.tipsFoodPageFragment -> {
+                    navView.visibility = View.GONE
+                }
+                R.id.workoutRecommendFragment -> {
+                    navView.visibility = View.GONE
+                }
+                R.id.complicationDiabetesFragment -> {
                     navView.visibility = View.GONE
                 }
                 else -> {
