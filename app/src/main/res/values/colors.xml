@@ -7,6 +7,7 @@
     <color name="background_onboarding">#F8F8F8</color>
     <color name="dark_blue">#0601B8</color>
     <color name="grey">#F0F0F0</color>
+    <color name="dark_grey">#999999</color>
     <color name="slightly_grey">#E1E0E0</color>
     <color name="light_green">#43FF00</color>
     <color name="army">#344C3D</color>
@@ -20,4 +21,8 @@
     <color name="diaType1">#BD0000</color>
     <color name="diaType2">#00BD55</color>
     <color name="diaGestasional">#BD8100</color>
+
+    <color name="background_color">#323232</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_color">#000000</color>
 </resources>

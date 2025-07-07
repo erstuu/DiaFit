@@ -118,8 +118,8 @@
 
     <string-array name="gejala_diabetes">
         <item>Sering haus</item>
-        <item>Sering buang air kecil, terutama di malam\nhari</item>
-        <item>Sering merasa lapar, tetapi berat badan\nturun tanpa sebab</item>
+        <item>Sering buang air kecil, terutama di malam hari</item>
+        <item>Sering merasa lapar, tetapi berat badan turun tanpa sebab</item>
         <item>Kelelahan</item>
         <item>Mual muntah</item>
         <item>Mulut kering</item>
@@ -131,14 +131,14 @@
 
     <string-array name="gejala_diabetes2">
         <item>Sering merasa haus</item>
-        <item>Sering buang air kecil, terutamanya\ndi malam hari</item>
-        <item>Sering merasa lapar, walaupun\nsudah makan</item>
-        <item>Berat badan turun drastis tanpa\nsebab yang jelas</item>
+        <item>Sering buang air kecil, terutamanya di malam hari</item>
+        <item>Sering merasa lapar, walaupun sudah makan</item>
+        <item>Berat badan turun drastis tanpa sebab yang jelas</item>
         <item>Mudah lelah</item>
-        <item>Luka pada kulit yang sulit mengering\natau sembuh</item>
+        <item>Luka pada kulit yang sulit mengering atau sembuh</item>
         <item>Penglihatan kabur</item>
-        <item>Kesemutan atau mati rasa\ndi tangan dan kaki</item>
-        <item>Masalah kulit, seperti kehitaman\npada area lipatan leher, ketiak,\ndan selangkangan</item>
+        <item>Kesemutan atau mati rasa di tangan dan kaki</item>
+        <item>Masalah kulit, seperti kehitaman pada area lipatan leher, ketiak, dan selangkangan</item>
     </string-array>
 
     <string-array name="gejala_diabetes_gestasional">
