@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:fillViewport="true"
-    android:background="@color/background"
     tools:context=".ui.fragment.typediabetes.FirstTypeDiabetesFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -34,30 +33,43 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:fontFamily="@font/poppins_semibold"
+            android:textColor="?attr/colorOnBackground"
             android:text="@string/mengenal_tipe_1_diabetes"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
 
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_title_tipe1"
+            app:layout_constraintStart_toStartOf="@+id/tv_title_tipe1"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title_tipe1" />
+
         <TextView
             android:id="@+id/textView5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:fontFamily="@font/poppins"
+            android:textColor="?attr/colorOnBackground"
             android:text="@string/tipe_1_diabetes_adalah_penyakit_autoimun_ndi_mana_sistem_kekebalan_tubuh_secara_keliru_nmenyerang_dan_menghancurkan_sel_beta_ndi_pankreas_yang_bertanggung_jawab_nuntuk_memproduksi_insulin_insulin_adalah_hormon_nyang_berfungsi_mengatur_kadar_gula_n_glukosa_dalam_darah_agar_tetap_stabil_nkarena_tubuh_tidak_bisa_memproduksi_ninsulin_sendiri_penderita_diabetes_tipe_1_nmemerlukan_suntikan_insulin_seumur_hidup"
             android:textAlignment="textStart"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_title_tipe1" />
+            app:layout_constraintTop_toBottomOf="@+id/youtube_player_view" />
 
         <TextView
             android:id="@+id/textView6"
@@ -65,6 +77,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:fontFamily="@font/poppins_semibold"
+            android:textColor="?attr/colorOnBackground"
             android:text="@string/penyebab"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
             app:layout_constraintStart_toStartOf="@+id/textView5"
@@ -76,6 +89,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:fontFamily="@font/poppins_medium"
+            android:textColor="?attr/colorOnBackground"
             android:text="@string/_1_faktor_genetik"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
             app:layout_constraintStart_toStartOf="@+id/textView6"
@@ -88,6 +102,7 @@
             android:layout_marginTop="2dp"
             android:layout_marginEnd="16dp"
             android:fontFamily="@font/poppins"
+            android:textColor="?attr/colorOnBackground"
             android:text="@string/beberapa_orang_memiliki_kecenderungan_ngenetik_yang_membuat_mereka_lebih_rentan_nterhadap_diabetes_tipe_1"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             app:layout_constraintEnd_toEndOf="parent"
@@ -101,6 +116,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:fontFamily="@font/poppins_medium"
+            android:textColor="?attr/colorOnBackground"
             android:text="@string/_2_gangguan_autoimun"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
             app:layout_constraintStart_toStartOf="@+id/textView7"
@@ -113,6 +129,7 @@
             android:layout_marginTop="2dp"
             android:layout_marginEnd="16dp"
             android:fontFamily="@font/poppins"
+            android:textColor="?attr/colorOnBackground"
             android:text="@string/sistem_kekebalan_tubuh_menyerang_sel_beta_npankreas_yang_memproduksi_insulin"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             app:layout_constraintEnd_toEndOf="parent"
@@ -125,6 +142,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:fontFamily="@font/poppins_medium"
+            android:textColor="?attr/colorOnBackground"
             android:text="@string/_3_infeksi_virus_atau_faktor_lingkungan"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
             app:layout_constraintStart_toStartOf="@+id/textView9"
@@ -137,6 +155,7 @@
             android:layout_marginTop="2dp"
             android:layout_marginEnd="16dp"
             android:fontFamily="@font/poppins"
+            android:textColor="?attr/colorOnBackground"
             android:text="@string/beberapa_virus_tertentu_dapat_memicu_nrespons_autoimun_yang_menyebabkan_sistem_nkekebalan_tubuh_menyerang_sel_beta_pankreas_nfaktor_lingkungan_lain_seperti_pola_makan_ndan_paparan_zat_beracun_juga_dapat_nberkontribusi_pada_perkembangan_ndiabetes_tipe_1"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             app:layout_constraintEnd_toEndOf="parent"
@@ -150,6 +169,7 @@
             android:layout_marginTop="16dp"
             android:fontFamily="@font/poppins_semibold"
             android:text="@string/gejala"
+            android:textColor="?attr/colorOnBackground"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
             app:layout_constraintStart_toStartOf="@+id/textView6"
             app:layout_constraintTop_toBottomOf="@+id/textView12" />
@@ -160,6 +180,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:fontFamily="@font/poppins_medium"
+            android:textColor="?attr/colorOnBackground"
             android:text="@string/gejala_diabetes_tipe_1_meliputi"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             app:layout_constraintStart_toStartOf="@+id/textView13"
@@ -167,23 +188,15 @@
 
         <TextView
             android:id="@+id/gejala_diabetes1"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
             android:fontFamily="@font/poppins"
+            android:textColor="?attr/colorOnBackground"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/textView14"
             app:layout_constraintTop_toBottomOf="@+id/textView14"
             tools:text="1. Gula Darah Tinggi" />
-
-        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-            android:id="@+id/youtube_player_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="16dp"
-            android:layout_marginVertical="16dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/gejala_diabetes1" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

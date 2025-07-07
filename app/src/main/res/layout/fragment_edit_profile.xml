@@ -3,8 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/background">
+    android:layout_height="match_parent">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -31,6 +30,7 @@
         android:fontFamily="@font/poppins_semibold"
         android:text="@string/username"
         android:textSize="@dimen/ts_16"
+        android:textColor="?attr/colorOnBackground"
         app:layout_constraintStart_toStartOf="@+id/guidelineStart"
         app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
 
@@ -54,8 +54,9 @@
             android:background="@drawable/rounded_text_input_layout"
             android:fontFamily="@font/poppins_medium"
             android:hint="@string/Input_unique_name"
+            android:textColorHint="?attr/colorOnSurfaceVariant"
             android:inputType="text"
-            android:padding="@dimen/padding_15" />
+            android:padding="0dp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <androidx.appcompat.widget.AppCompatButton

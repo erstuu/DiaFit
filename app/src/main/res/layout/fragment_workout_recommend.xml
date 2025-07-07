@@ -4,8 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true"
-    android:background="@color/background">
+    android:fillViewport="true">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,14 +26,22 @@
                 app:titleTextAppearance="@style/ToolbarTitleText" />
         </com.google.android.material.appbar.AppBarLayout>
 
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp" />
+
         <TextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginHorizontal="16dp"
             android:layout_marginTop="16dp"
             android:textSize="16sp"
             android:fontFamily="@font/poppins_medium"
+            android:textColor="?attr/colorOnBackground"
             android:text="@string/olahraga_memiliki_peran_penting_ndalam_pengelolaan_diabetes_nmembantu_mengendalikan_kadar_ngula_darah_dan_meningkatkan_nkesehatan_secara_keseluruhan_nberikut_beberapa_rekomendasi_nolahraga_yang_aman_dan_efektif_bagi_npenderita_diabetes"
             android:textAlignment="textStart"
             android:textAppearance="@style/TextAppearance.AppCompat.Title" />
@@ -56,6 +63,7 @@
             android:layout_marginStart="16dp"
             android:fontFamily="@font/poppins_semibold"
             android:text="@string/jalan_kaki"
+            android:textColor="?attr/colorOnBackground"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1" />
 
         <TextView
@@ -64,7 +72,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
             android:fontFamily="@font/poppins"
-            android:layout_marginStart="16dp"
+            android:layout_marginHorizontal="16dp"
+            android:textColor="?attr/colorOnBackground"
             android:text="@string/aktivitas_fisik_sederhana_seperti_berjalan_nkaki_dapat_membantu_menurunkan_nkadar_gula_darah_dan_meningkatkan_nsensitivitas_insulin_sebuah_tinjauan_npenelitian_pada_tahun_2021_menunjukkan_nbahwa_berjalan_kaki_dapat_membantu_npenderita_diabetes_tipe_2_menurunkan_ntekanan_darah_kadar_hba1c_dan_nindeks_massa_tubuh_bmi"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
@@ -84,6 +93,7 @@
             android:layout_marginStart="16dp"
             android:fontFamily="@font/poppins_semibold"
             android:text="@string/bersepeda"
+            android:textColor="?attr/colorOnBackground"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1" />
 
         <TextView
@@ -91,7 +101,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
             android:fontFamily="@font/poppins"
-            android:layout_marginStart="16dp"
+            android:layout_marginHorizontal="16dp"
+            android:textColor="?attr/colorOnBackground"
             android:text="@string/bersepeda_merupakan_olahraga_nberdampak_rendah_yang_cocok_bagi_npenderita_diabetes_terutama_yang_nmemiliki_masalah_persendian_naktivitas_ini_membantu_meningkatkan_nkebugaran_kardiovaskular_dan_nmengontrol_kadar_gula_darah"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
@@ -110,6 +121,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginStart="16dp"
             android:fontFamily="@font/poppins_semibold"
+            android:textColor="?attr/colorOnBackground"
             android:text="@string/senam_kaki_diabetes"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1" />
 
@@ -118,7 +130,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
             android:fontFamily="@font/poppins"
-            android:layout_marginStart="16dp"
+            android:layout_marginHorizontal="16dp"
+            android:textColor="?attr/colorOnBackground"
             android:text="@string/senam_khusus_ini_dirancang_untuk_nmeningkatkan_sirkulasi_darah_dan_nmencegah_komplikasi_pada_kaki_akibat_ndiabetes_penelitian_menunjukkan_nbahwa_senam_kaki_diabetes_dapat_nmembantu_menurunkan_kadar_nglukosa_darah_pada_penderita_ndiabetes_mellitus_tipe_2"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
@@ -138,6 +151,7 @@
             android:layout_marginStart="16dp"
             android:fontFamily="@font/poppins_semibold"
             android:text="@string/latihan_ketahanan"
+            android:textColor="?attr/colorOnBackground"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1" />
 
         <TextView
@@ -145,25 +159,20 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
             android:fontFamily="@font/poppins"
-            android:layout_marginStart="16dp"
+            android:layout_marginHorizontal="16dp"
+            android:textColor="?attr/colorOnBackground"
             android:text="@string/latihan_ini_melibatkan_penggunaan_nbeban_untuk_meningkatkan_massa_notot_yang_dapat_membantu_nmengontrol_kadar_gula_darah_nstudi_menunjukkan_bahwa_pelatihan_nketahanan_dapat_meningkatkan_nkontrol_glikemik_pada_penderita_ndiabetes_tipe_2"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginStart="16dp"
+            android:layout_marginVertical="16dp"
+            android:layout_marginHorizontal="16dp"
             android:fontFamily="@font/poppins_semibold"
+            android:textColor="?attr/colorOnBackground"
             android:text="@string/anda_dapat_menerapkan_nkegiatan_di_atas_selama_15_menit_ndalam_satu_hari_atau_75_menit_ndalam_satu_minggu_dilakukan_n2_3_sesi"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1" />
-
-        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-            android:id="@+id/youtube_player_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="16dp"
-            android:layout_marginVertical="16dp" />
     </LinearLayout>
 
 </ScrollView>
